@@ -1,0 +1,692 @@
+﻿READING: Document Autoavaluaci├│ Gold.pdf
+--- Page 1 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+ 
+Document Autoavaluaci├│ 
+Nom i Cognoms: Pau Gutsens 
+Scrum Group: 3 
+Tasca 
+Descripci├│ 
+Estimaci├│ 
+Col┬Àlocaci├│ de 
+colliders 
+He 
+recol┬Àlocat 
+i 
+ajustat els colliders 
+dels nivells arran de 
+les noves iteracions i 
+modificacions 
+del 
+terreny, 
+incloent-hi 
+elements 
+com 
+muntanyes, 
+desnivells i diferents 
+superf├¡cies presents 
+tant al nivell 1 com al 
+nivell 
+2. 
+L'objectiu 
+d'aquesta revisi├│ ha 
+estat garantir que les 
+col┬Àlisions siguin tan 
+precises, coherents i 
+justes 
+com 
+sigui 
+possible, adaptant-se 
+correctament 
+a 
+la 
+geometria actual dels 
+escenaris. 
+Paral┬Àlelament, 
+he 
+revisat l'accessibilitat 
+de 
+les 
+diferents 
+zones per assegurar 
+que els l├¡mits de 
+30h 
+
+--- Page 2 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+moviment 
+coincideixin amb la 
+intenci├│ de disseny, 
+permetent 
+o 
+restringint l'acc├®s del 
+jugador 
+all├á 
+on 
+corresponia. Aquest 
+proc├®s de poliment 
+ha contribu├»t a una 
+navegaci├│ m├®s clara, 
+ha 
+evitat 
+comportaments 
+inesperats 
+i 
+ha 
+refor├ºat 
+la 
+consist├¿ncia 
+de 
+l'experi├¿ncia de joc. 
+ 
+QA 
+Durant tot el proc├®s 
+he anat fent sessions 
+de playtesting per tal 
+de 
+cobrir 
+alguns 
+errors i bugs que 
+an├®s trobant al llarg 
+de les sessions per 
+tal 
+dÔÇÖassegurar 
+un 
+bon estat. 
+12h 
+Recreaci├│ 2n puzzle 
+apolo 
+He modificat aquest 
+puzle 
+despr├®s 
+de 
+detectar 
+que 
+la 
+dificultat original era 
+massa 
+baixa 
+en 
+relaci├│ 
+amb 
+el 
+context i la ubicaci├│ 
+on es trobava dins 
+5h 
+
+--- Page 3 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+del nivell. Aprofitant 
+aquesta 
+revisi├│, 
+tamb├® he introdu├»t 
+una mec├ánica que 
+m├®s 
+endavant 
+es 
+dona per coneguda, 
+de manera que el 
+jugador 
+la 
+pugui 
+aprendre de forma 
+natural 
+abans que 
+sigui necess├ária. 
+ 
+Despr├®s de diverses 
+iteracions i ajustos, 
+he 
+arribat 
+a 
+una 
+versi├│ 
+en 
+qu├¿ 
+la 
+dificultat 
+├®s 
+adequada per al punt 
+del 
+nivell 
+on 
+es 
+presenta. La soluci├│ 
+es 
+pot 
+deduir de 
+manera coherent a 
+partir dels elements 
+disponibles, 
+sense 
+necessitat 
+d'afegir 
+noves 
+implementacions 
+ni 
+mec├ániques 
+complexes. 
+Aix├▓ 
+permet mantenir una 
+experi├¿ncia 
+equilibrada 
+i 
+una 
+progressi├│ 
+d'aprenentatge 
+m├®s 
+fluida per al jugador. 
+
+--- Page 4 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+Recreaci├│ 2n puzzle 
+nivell 2 
+He 
+recreat 
+lÔÇÖ├║ltim 
+puzle del nivell 2 i, 
+alhora, el darrer repte 
+del 
+joc, 
+despr├®s 
+dÔÇÖidentificar que la 
+seva versi├│ original 
+presentava 
+una 
+soluci├│ 
+massa 
+evident 
+i 
+f├ácil de 
+reproduir. La baixa 
+complexitat feia que 
+no 
+represent├®s 
+adequadament 
+el 
+nivell 
+de 
+dificultat 
+esperat per a la fase 
+final de lÔÇÖexperi├¿ncia. 
+ 
+Amb 
+aquest 
+redisseny, 
+he 
+potenciat lÔÇÖ├║s de les 
+tres m├áscares i he 
+integrat de manera 
+m├®s 
+activa 
+les 
+diferents mec├ániques 
+que el jugador ha 
+anat aprenent al llarg 
+del joc. LÔÇÖobjectiu ha 
+estat crear un repte 
+que posi a prova els 
+coneixements 
+adquirits 
+fins 
+al 
+moment 
+i 
+que 
+funcioni 
+com 
+una 
+culminaci├│ coherent 
+de 
+la 
+progressi├│ 
+7h 
+
+--- Page 5 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+jugable. 
+ 
+Despr├®s de diverses 
+iteracions i ajustos, 
+he 
+arribat 
+a 
+una 
+versi├│ 
+en 
+qu├¿ 
+la 
+dificultat 
+├®s 
+m├®s 
+adequada per al tram 
+final 
+del 
+joc. 
+La 
+resoluci├│ 
+requereix 
+combinar 
+correctament 
+les 
+eines i mec├ániques 
+disponibles, 
+oferint 
+una experi├¿ncia m├®s 
+satisfact├▓ria 
+i 
+alineada 
+amb 
+les 
+expectatives 
+dÔÇÖun 
+puzle de tancament, 
+sense 
+necessitat 
+dÔÇÖincorporar 
+noves 
+funcionalitats 
+o 
+sistemes addicionals. 
+Millora de motor 
+En aquesta tasca he 
+netejat visualment el 
+nivell en parts que no 
+eren visibles de cara 
+al jugador per tal de 
+millorar el rendiment 
+del joc. Tamb├® he 
+destinat 
+temps 
+en 
+millorar la jerarquia 
+del nivell 1 i nivell 2 
+organitzant-los 
+per 
+9h 
+
+--- Page 6 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+grups 
+i 
+renombrant-los 
+per 
+una millor entesa. 
+Imatges 
+ 
+Observacions 
+ 
+ 
+ 
+ 
+
+
+READING: Document Autoavaluaci├│ Beta.pdf
+--- Page 1 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+ 
+Document Autoavaluaci├│ 
+Nom i Cognoms: Pau Gutsens 
+Scrum Group: 3 
+Tasca 
+Descripci├│ 
+Estimaci├│ 
+Col┬Àlocaci├│ de 
+colliders i assets 
+En 
+aquesta 
+tasca 
+principalment he anat 
+afegint 
+colliders al 
+llarg del nivell per 
+zones on el player es 
+pogu├®s 
+caure 
+o 
+accedir a zones que 
+no 
+estaven 
+desitjades 
+o 
+plantejades 
+per 
+estar-hi. Tamb├® he 
+recol┬Àlocat i mogut 
+assets 
+que 
+no 
+estaven col┬Àlocats o 
+que 
+estaven 
+mal 
+posicionats a causa 
+de 
+les 
+implementacions dels 
+models de lÔÇÖescenari 
+en el nivell 1 i nivell 
+2. 
+10h 
+QA 
+Durant tot el proc├®s 
+he anat fent sessions 
+de playtesting per tal 
+de 
+cobrir 
+alguns 
+errors i bugs que 
+7h 
+
+--- Page 2 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+an├®s trobant al llarg 
+de les sessions per 
+tal 
+dÔÇÖassegurar 
+un 
+bon estat. 
+Correcci├│ de 
+navmesh 
+He 
+corregit 
+la 
+disposici├│ en el nivell 
+del navmesh degut a 
+les 
+noves 
+implementacions de 
+models en el nivell 1. 
+5h 
+Millora de motor 
+En 
+aquesta 
+tasca 
+encara que no ha 
+sigut espec├¡ficament 
+una millora en l'├ámbit 
+de programaci├│, he 
+netejat visualment el 
+nivell en parts que no 
+eren visibles de cara 
+al jugador per tal de 
+millorar, encara que 
+fos en petita mesura, 
+el rendiment del joc. 
+Tamb├® he destinat 
+temps en millorar la 
+jerarquia del nivell 1 
+a 
+causa 
+de 
+les 
+constants queixes de 
+la mala organitzaci├│ i 
+posicionament 
+dels 
+objectes en lÔÇÖescena, 
+organitzant-los 
+per 
+grups 
+i 
+renombrant-los 
+per 
+una millor entesa. 
+3h 
+Imatges 
+
+--- Page 3 ---
+Projecte 3 ÔÇô Nobody GamesÔÇï ÔÇï
+ÔÇï
+           ÔÇïÔÇï
+Document dÔÇÖAutoavaluaci├│ 
+ 
+ 
+Observacions 
+ 
+ 
+ 
+ 
+
+
+READING: Document Autoavaluaci├│ vs3 (1).pdf
+--- Page 1 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+ 
+Document Autoavaluaci├│ 
+Nom i Cognoms: Pau Gutsens 
+Scrum Group: 3 
+Tasca 
+Descripci├│ 
+Estimaci├│ 
+QA 
+Durant tot el proces 
+he anat fent 
+sessions de 
+playtesting per tal 
+de cubrir alguns 
+errors i bugs que 
+anes trobant al llarg 
+de les sessions per 
+tal dÔÇÖassegurar un 
+bon estat. 
+6h 
+Implementaci├│ 
+dÔÇÖassets i Colliders 
+He implementat els 
+assets que mÔÇÖhan 
+disposat com 
+acabats dins del 
+motor i 
+posteriorment anar 
+disposant-los al 
+llarg del nivell 
+intentant seguir la 
+dinamica i 
+ambientacio 
+proposada pel 
+nivell. A mes a mes 
+conjuntament amb 
+la resta de 
+companys que 
+20h 
+
+--- Page 2 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+anaven posant 
+altres assets he 
+colocat els colliders 
+pertinients intentant 
+optimitzar al maxim 
+possible. Aixo 
+acompanyat dÔÇÖuna 
+organitzacio del 
+hierarchy dins del 
+motor per una 
+major claretat 
+visual. 
+Canvi dÔÇÖescena 
+Per aquesta tasca 
+he implementat i 
+millorat el sistema 
+de canvi de escena 
+entre el nivell 1 i 
+nivell 2 del joc 
+mitjan├ºant un fade-
+in fade-out entre la 
+transicio dÔÇÖescenes 
+per una 
+visualitzacio menys 
+brusca, fer que en 
+aquesta transicio el 
+player es pogues 
+moure amb les 
+seves animacions 
+corresponents i per 
+ultim afegir els 
+efectes de so per 
+millorar 
+lÔÇÖexperiencia de 
+11h 
+
+--- Page 3 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+lÔÇÖusuari. 
+Aquest canvi 
+dÔÇÖescena funciona 
+nomes quan el 
+jugador cumpleix la 
+condicio de haber 
+agafat un numeor 
+determinat 
+anteriorment i que 
+es pot canviar dins 
+del motor a plaer 
+de ÔÇ£clausÔÇØ obligant-
+lo a passar-se el 
+puzzles i que pugui 
+avan├ºar al seguent 
+nivell. Awuets 
+sistema tambe 
+servira en cas de 
+que en els puzzles 
+sÔÇÖutilitza una 
+condicio semblant 
+per mitja de claus o 
+coses aixi. 
+Imatges 
+
+--- Page 4 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+
+--- Page 5 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+Observacions 
+ 
+ 
+ 
+
+
+READING: Document Autoavaluaci├│ Alpha_1.pdf
+--- Page 1 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+ 
+Document Autoavaluaci├│ 
+Nom i Cognoms: Pau Gutsens 
+Scrum Group: 3 
+Tasca 
+Descripci├│ 
+Estimaci├│ 
+QA 
+Durant tot el proces 
+he anat fent sessions 
+de playtesting per tal 
+de cubrir alguns 
+errors i bugs que 
+anes trobant al llarg 
+de les sessions per 
+tal dÔÇÖassegurar un 
+bon estat 
+4h 
+Modificacio del nivell 
+1 
+En aquesta entrega 
+ha sigut mes per la 
+part de nivell 1 per 
+tema de creacio i 
+colocacio de colliers 
+tant a assets i zones 
+que fessin possible 
+que el player caigues 
+o arribes en zones no 
+desitjades o de forma 
+mes rapida. He 
+implementat i testejat 
+tots el assets que 
+sÔÇÖhan anat colocant 
+como acabats. 
+30h 
+Imatges 
+
+--- Page 2 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+
+--- Page 3 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+
+--- Page 4 ---
+Projecte 3 ÔÇô Nobody Games  
+ 
+             
+Document dÔÇÖAutoavaluaci├│ 
+ 
+Observacions 
+ 
+ 
+ 
+
+

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pau Gutsens | Level Design & QA</title>
+    <meta name="description"
+        content="Portfolio de Pau Gutsens. Diseño de niveles y QA para videojuegos.">
+    <meta name="keywords"
+        content="Pau Gutsens, Level Design, QA Videojuegos, Game QA, Unreal Engine, Blockout, Tiled, Game Design, CITM">
+    <meta name="author" content="Pau Gutsens">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Subtle Grid Overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Top Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-name">PAU GUTSENS</span>
+                <span class="logo-tag" data-i18n="nav_role">LEVEL DESIGN & QA</span>
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#projects" class="nav-link" data-i18n="nav_projects">Proyectos</a>
+                <a href="#qa-methodology" class="nav-link" data-i18n="nav_qa">QA & Testing</a>
+                <a href="#ld-philosophy" class="nav-link" data-i18n="nav_ld">Level Design</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">Sobre Mí</a>
+                <a href="#contact" class="nav-link" data-i18n="nav_contact">Contacto</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Language Switcher -->
+                <div class="lang-switch" id="langSwitch" role="group" aria-label="Language selector">
+                    <button class="lang-btn active" data-lang="es" aria-pressed="true">ES</button>
+                    <span class="lang-divider">/</span>
+                    <button class="lang-btn" data-lang="ca" aria-pressed="false">CA</button>
+                    <span class="lang-divider">/</span>
+                    <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+
+                <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Intro Banner (replaces hero) -->
+    <div class="page-intro-banner">
+        <div class="container">
+            <div class="page-intro-inner">
+                <div class="page-intro-text">
+                    <h1 class="page-intro-title" data-i18n="page_intro_title">Pau Gutsens — Level Design & QA</h1>
+                    <p class="page-intro-sub" data-i18n="page_intro_sub">Dissenyador de nivells i tester de qualitat per a videojocs. Estudiant al CITM (UPC).</p>
+                </div>
+                <div class="page-intro-pills">
+                    <div class="role-pill pill-ld">
+                        <i class="fa-solid fa-cube"></i>
+                        <div>
+                            <strong data-i18n="pill_ld_title">Level Design</strong>
+                            <span data-i18n="pill_ld_desc">Layout • Blockout • Puzzles • Iteració</span>
+                        </div>
+                    </div>
+                    <div class="role-pill pill-qa">
+                        <i class="fa-solid fa-bug"></i>
+                        <div>
+                            <strong data-i18n="pill_qa_title">QA & Testing</strong>
+                            <span data-i18n="pill_qa_desc">Playtesting • Bug reporting • Regressió</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-pre" data-i18n="projects_pre">MIS PROYECTOS</div>
+                <h2 class="section-title" data-i18n="projects_title">Cosas en las que he trabajado</h2>
+                <p class="section-desc" data-i18n="projects_desc">
+                    Proyectos de equipo en los que he hecho level design, technical art o QA — en algunos los tres a la vez.
+                </p>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Injected via JavaScript from data model -->
+            </div>
+        </div>
+    </section>
+
+    <!-- QA & Bug Tracking Methodology Showcase -->
+    <section class="section qa-section" id="qa-methodology">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-pre tag-qa" data-i18n="qa_pre">QA & TESTING</div>
+                <h2 class="section-title" data-i18n="qa_title">Cómo testeo y busco bugs</h2>
+                <p class="section-desc" data-i18n="qa_desc">
+                    Para mí testear no es solo darle a los botones hasta que algo falle: es entender por qué ocurre, registrar pasos exactos para reproducirlo y ayudar a resolverlo antes de que llegue al jugador.
+                </p>
+            </div>
+
+            <div class="qa-grid">
+                <!-- QA Pillars Cards -->
+                <div class="qa-card">
+                    <div class="qa-card-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+                    <h3 data-i18n="qa_pillar_1_title">Smoke & Functional Testing</h3>
+                    <p data-i18n="qa_pillar_1_desc">Comprobar el bucle principal de cada build nueva (menús, guardado, transiciones y controles) antes de entrar en pruebas a fondo.</p>
+                </div>
+                <div class="qa-card">
+                    <div class="qa-card-icon"><i class="fa-solid fa-arrows-split-up-and-left"></i></div>
+                    <h3 data-i18n="qa_pillar_2_title">Límites y Colisiones</h3>
+                    <p data-i18n="qa_pillar_2_desc">Buscar huecos en mallas, fallos de colisión con dashes/saltos y situaciones donde el jugador pueda salirse del mapa.</p>
+                </div>
+                <div class="qa-card">
+                    <div class="qa-card-icon"><i class="fa-solid fa-rotate-left"></i></div>
+                    <h3 data-i18n="qa_pillar_3_title">Testing de Regresión</h3>
+                    <p data-i18n="qa_pillar_3_desc">Verificar que al corregir un bug o retocar la geometría de un nivel no reaparezcan errores anteriores ni se rompa nada.</p>
+                </div>
+                <div class="qa-card">
+                    <div class="qa-card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <h3 data-i18n="qa_pillar_4_title">Playtesting con Jugadores</h3>
+                    <p data-i18n="qa_pillar_4_desc">Ver jugar a personas sin darles indicaciones para detectar dónde se atascan, si entienden las mecánicas y cómo evoluciona la dificultad.</p>
+                </div>
+            </div>
+
+            <!-- Live Bug Report Mockup (Jira Style) -->
+            <div class="bug-report-container">
+                <div class="bug-header">
+                    <div class="bug-title-wrap">
+                        <span class="badge badge-critical" data-i18n="bug_badge">BUG DE EJEMPLO</span>
+                        <span class="bug-id">ITH-104</span>
+                        <span class="bug-summary-text" data-i18n="bug_summary_title">Teleport involuntario al encadenar Dash con colisión de estatua en Sala 2</span>
+                    </div>
+                    <div class="bug-meta-pills">
+                        <span class="meta-pill"><i class="fa-regular fa-clock"></i> Build: PreGold_v1.2</span>
+                        <span class="meta-pill"><i class="fa-solid fa-user-check"></i> Tester: Pau Gutsens</span>
+                    </div>
+                </div>
+
+                <div class="bug-body">
+                    <div class="bug-col">
+                        <h4 data-i18n="bug_steps_title">Pasos para reproducir:</h4>
+                        <ol class="bug-steps">
+                            <li data-i18n="bug_step_1">Cargar la Sala 2 con la habilidad Dash equipada.</li>
+                            <li data-i18n="bug_step_2">Ir hacia la esquina izquierda de la zona de estatuas.</li>
+                            <li data-i18n="bug_step_3">Hacer Dash justo al tocar la base de la columna.</li>
+                            <li data-i18n="bug_step_4">El personaje atraviesa la colisión y cae al vacío.</li>
+                        </ol>
+                    </div>
+
+                    <div class="bug-col">
+                        <div class="bug-compare">
+                            <div class="compare-box actual">
+                                <strong data-i18n="bug_actual_label">Comportamiento actual:</strong>
+                                <p data-i18n="bug_actual_desc">A alta velocidad el personaje atraviesa el collider sin disparar zona de respawn ni frenar.</p>
+                            </div>
+                            <div class="compare-box expected">
+                                <strong data-i18n="bug_expected_label">Comportamiento esperado:</strong>
+                                <p data-i18n="bug_expected_desc">El Dash debe detenerse contra la columna sin atravesar la geometría.</p>
+                            </div>
+                        </div>
+
+                        <div class="resolution-box">
+                            <i class="fa-solid fa-wrench"></i>
+                            <div>
+                                <strong data-i18n="bug_res_title">Solución aplicada:</strong>
+                                <p data-i18n="bug_res_desc">Se ajustó el collider de la columna y se activó Continuous Collision Detection (CCD) en el personaje.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Level Design Philosophy Section -->
+    <section class="section ld-section" id="ld-philosophy">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-pre" data-i18n="ld_pre">LEVEL DESIGN</div>
+                <h2 class="section-title" data-i18n="ld_title">Cómo planteo un nivel</h2>
+                <p class="section-desc" data-i18n="ld_desc">
+                    El proceso que sigo para pasar de una idea en papel a un nivel jugable, claro y con buen ritmo.
+                </p>
+            </div>
+
+            <div class="workflow-steps">
+                <div class="wf-step">
+                    <div class="wf-num">01</div>
+                    <h3 data-i18n="wf_1_title">Concepto y Ritmo</h3>
+                    <p data-i18n="wf_1_desc">Definir qué queremos que sienta el jugador, qué mecánica nueva aprende y el equilibrio entre momentos de tensión y descanso.</p>
+                </div>
+                <div class="wf-step">
+                    <div class="wf-num">02</div>
+                    <h3 data-i18n="wf_2_title">Plano 2D y Recorrido</h3>
+                    <p data-i18n="wf_2_desc">Esquemas cenitales marcando el camino principal (Golden Path), desvíos opcionales, puntos de referencia visual y checkpoints.</p>
+                </div>
+                <div class="wf-step">
+                    <div class="wf-num">03</div>
+                    <h3 data-i18n="wf_3_title">Blockout / Greybox</h3>
+                    <p data-i18n="wf_3_desc">Construir la geometría básica en el motor (UE5 / Unity / Tiled) para probar proporciones, distancias de salto y coberturas antes del arte final.</p>
+                </div>
+                <div class="wf-step">
+                    <div class="wf-num">04</div>
+                    <h3 data-i18n="wf_4_title">Playtesting e Iteración</h3>
+                    <p data-i18n="wf_4_desc">Poner a prueba el nivel con gente que no lo conoce, observar dónde se desorientan y retocar el diseño con feedback real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Footer Section -->
+    <footer class="site-footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-cta">
+                <div class="header-pre" data-i18n="contact_pre">CONTACTO</div>
+                <h2 class="footer-title" data-i18n="contact_title">¿Tienes un proyecto o buscas a alguien para el equipo?</h2>
+                <p class="footer-sub" data-i18n="contact_sub">
+                    Escríbeme si buscas un Level Designer o Tester de QA con ganas de sumar.
+                </p>
+
+                <div class="contact-links">
+                    <a href="mailto:pgutsens@gmail.com" class="btn btn-primary">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>pgutsens@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pau-gutsens-sanz-491a90315/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    © 2026 Pau Gutsens Sanz.
+                </div>
+                <div class="footer-nav">
+                    <a href="#projects" data-i18n="nav_projects">Proyectos</a>
+                    <a href="#qa-methodology" data-i18n="nav_qa">QA</a>
+                    <a href="about.html" data-i18n="nav_about">Sobre Mí</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Case Study Interactive Modal -->
+    <div class="modal-overlay" id="projectModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+        <div class="modal-card">
+            <button class="modal-close" id="modalCloseBtn" aria-label="Cerrar modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <!-- Modal Content Loaded Dynamically -->
+            <div class="modal-content" id="modalContent">
+                <!-- JS Populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Lightbox Modal for Fullscreen Zoom -->
+    <div class="lightbox-overlay" id="lightboxOverlay" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Cerrar imagen">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img src="" alt="" id="lightboxImg" class="lightbox-image">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

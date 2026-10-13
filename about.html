@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi | Pau Gutsens</title>
+    <meta name="description" content="Sobre Pau Gutsens. Estudiante de Diseno y Desarrollo de Videojuegos en el CITM (UPC). Level Design y QA.">
+    <meta name="author" content="Pau Gutsens">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-overlay"></div>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">
+                <span class="logo-name">PAU GUTSENS</span>
+                <span class="logo-tag" data-i18n="nav_role">LEVEL DESIGN &amp; QA</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html#projects" class="nav-link" data-i18n="nav_projects">Proyectos</a>
+                <a href="index.html#qa-methodology" class="nav-link" data-i18n="nav_qa">QA &amp; Testing</a>
+                <a href="index.html#ld-philosophy" class="nav-link" data-i18n="nav_ld">Level Design</a>
+                <a href="about.html" class="nav-link nav-link-active" data-i18n="nav_about">Sobre mi</a>
+                <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <div class="lang-switch" id="langSwitch" role="group" aria-label="Language selector">
+                    <button class="lang-btn active" data-lang="es" aria-pressed="true">ES</button>
+                    <span class="lang-divider">/</span>
+                    <button class="lang-btn" data-lang="ca" aria-pressed="false">CA</button>
+                    <span class="lang-divider">/</span>
+                    <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+                <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-page-main">
+        <div class="container">
+            <div class="about-page-header">
+                <div class="header-pre" data-i18n="about_pre">SOBRE MI</div>
+                <h1 class="about-page-title" data-i18n="about_title">Pau Gutsens Sanz</h1>
+                <p class="about-page-tagline" data-i18n="about_tagline">Level Designer &amp; QA Tester &middot; CITM (UPC)</p>
+            </div>
+
+            <div class="about-full-grid">
+                <div class="about-text-col">
+                    <p class="about-bio" data-i18n="about_bio_1">
+                        Estudio el Grado en Diseno y Desarrollo de Videojuegos en el <strong>CITM (UPC Terrassa)</strong>.
+                        Me interesa especialmente el diseno de niveles y el testeo de calidad (QA).
+                    </p>
+                    <p class="about-bio" data-i18n="about_bio_2">
+                        He trabajado en proyectos de equipo tanto con motores propios en C++ como en Unity y Unreal Engine 5.
+                        Me gusta entender como juegan las personas y colaborar mano a mano con programadores y artistas para que cada nivel sea divertido, intuitivo y solido.
+                    </p>
+                    <div class="about-meta-list">
+                        <div class="meta-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n="about_location">Barcelona, Espana</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span data-i18n="about_edu">CITM (UPC) - 2023 - Presente</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fa-solid fa-language"></i>
+                            <span data-i18n="about_langs">Espanol (Nativo) - Catalan (Nativo) - Ingles (B2)</span>
+                        </div>
+                    </div>
+                    <div class="about-contact-row">
+                        <a href="mailto:pgutsens@gmail.com" class="btn btn-primary">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>pgutsens@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pau-gutsens-sanz-491a90315/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="index.html#projects" class="btn btn-secondary">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span data-i18n="btn_explore">Ver proyectos</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="skills-box-col">
+                    <div class="skills-box">
+                        <h2 class="skills-heading"><i class="fa-solid fa-cube"></i> <span data-i18n="skills_ld_title">Herramientas de Level Design</span></h2>
+                        <div class="skill-tags">
+                            <span class="tag">Unreal Engine 5</span>
+                            <span class="tag">Greybox / Blockout</span>
+                            <span class="tag">Tiled Map Editor</span>
+                            <span class="tag">Metricas de Juego</span>
+                            <span class="tag">Autodesk Maya</span>
+                            <span class="tag">Godot Engine</span>
+                            <span class="tag">Unity 3D</span>
+                        </div>
+                        <h2 class="skills-heading" style="margin-top: 2rem;"><i class="fa-solid fa-bug"></i> <span data-i18n="skills_qa_title">QA &amp; Testing</span></h2>
+                        <div class="skill-tags">
+                            <span class="tag tag-highlight">Bug Reporting Estandar</span>
+                            <span class="tag tag-highlight">Test Plans &amp; Checklists</span>
+                            <span class="tag tag-highlight">Testing de Regresion</span>
+                            <span class="tag tag-highlight">Boundary &amp; Collision Testing</span>
+                            <span class="tag">Git / Control de Versiones</span>
+                            <span class="tag">Jira / Trello Workflows</span>
+                            <span class="tag">Playtest Moderation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-what-section">
+                <div class="header-pre" data-i18n="about_what_pre">EL QUE FAIG</div>
+                <h2 class="section-title" data-i18n="about_what_title">Les meves especialitats</h2>
+                <div class="about-what-cards">
+                    <div class="about-what-card">
+                        <div class="about-what-icon"><i class="fa-solid fa-cube"></i></div>
+                        <h3 data-i18n="about_ld_card_title">Level Design</h3>
+                        <p data-i18n="about_ld_card_desc">Diseno espacios jugables desde la idea hasta el blockout: defino el ritmo, guio al jugador con pistas visuales y valido cada nivel con playtests reales antes de iterar.</p>
+                    </div>
+                    <div class="about-what-card">
+                        <div class="about-what-icon"><i class="fa-solid fa-bug"></i></div>
+                        <h3 data-i18n="about_qa_card_title">QA &amp; Testing</h3>
+                        <p data-i18n="about_qa_card_desc">Pruebo builds de forma sistematica: redacto bugs claros con pasos reproducibles, llevo test plans y hago testing de regresion para que los arreglos no rompan nada mas.</p>
+                    </div>
+                    <div class="about-what-card">
+                        <div class="about-what-icon"><i class="fa-solid fa-palette"></i></div>
+                        <h3 data-i18n="about_art_card_title">Technical Art</h3>
+                        <p data-i18n="about_art_card_desc">Colaboro en el punto de contacto entre arte y codigo: materiales, shaders, iluminacion de bloqueo y Grid Materials para que el aspecto visual apoye la lectura del nivel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-bottom">
+                <div class="footer-copy">&#169; 2026 Pau Gutsens Sanz.</div>
+                <div class="footer-nav">
+                    <a href="index.html#projects" data-i18n="nav_projects">Proyectos</a>
+                    <a href="index.html#qa-methodology" data-i18n="nav_qa">QA</a>
+                    <a href="about.html" data-i18n="nav_about">Sobre mi</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
