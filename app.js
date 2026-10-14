@@ -452,7 +452,7 @@ const projectsData = [
             ca: [
                 "Col·locació i integració d'assets i colliders als nivells 1 i 2",
                 "Redisseny de puzles per millorar la corba de dificultat i l'aprenentatge progressiu",
-                "QA continu amb sessions de playtesting a cada milestone del projecte"
+                "QA continu amb sessions de playtesting a cada fita del projecte"
             ],
             en: [
                 "Asset and collider placement and integration across levels 1 and 2",
@@ -538,10 +538,10 @@ const projectsData = [
             },
             ca: {
                 projectOverview: `
-                    <p class="project-prose"><strong>Son of Ithaca</strong> és una aventura de puzles en 3D inspirada en la mitologia grega, desenvolupada per un equip multidisciplinar de més de 30 persones en el marc del Projecte 3 del CITM. El joc va ser construït sobre <strong>Wave Engine</strong>, un motor propi 3D desenvolupat en C++ i OpenGL 4.6 amb físiques NVIDIA PhysX i scripting en Lua (<a href="https://github.com/NobodyGamesStudio/WaveEngine" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> Repositori de WaveEngine</a>). El joc s'estructura en dos nivells amb puzles progressius, mecàniques de màscares i un disseny de món acuradament construït col·laborativament. Vaig formar part de l'Scrum Group 3, amb rol principal de <strong>Technical Artist</strong>, complementat amb tasques de <strong>QA</strong> i <strong>Level Design</strong>.</p>
+                    <p class="project-prose"><strong>Son of Ithaca</strong> és una aventura de puzles en 3D inspirada en la mitologia grega, desenvolupada per un equip multidisciplinari de més de 30 persones en el marc del Projecte 3 del CITM. El joc va ser construït sobre <strong>Wave Engine</strong>, un motor propi 3D desenvolupat en C++ i OpenGL 4.6 amb físiques NVIDIA PhysX i scripting en Lua (<a href="https://github.com/NobodyGamesStudio/WaveEngine" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> Repositori de WaveEngine</a>). El joc s'estructura en dos nivells amb puzles progressius, mecàniques de màscares i un disseny de món acuradament construït col·laborativament. Vaig formar part de l'Scrum Group 3, amb rol principal de <strong>Technical Artist</strong>, complementat amb tasques de <strong>QA</strong> i <strong>Level Design</strong>.</p>
                 `,
                 myContribution: `
-                    <p class="project-prose">La meva feina al projecte va abraçar tres àrees complementàries. Com a <strong>Technical Artist</strong>, vaig ser responsable de la integració d'assets a <strong>Wave Engine</strong>, ajust i col·locació precisa de Rigidbodies i colliders PhysX a ambdós nivells, correcció del navmesh, neteja de geometria invisible per optimitzar el rendiment i implementació del sistema de transició entre escenes amb scripts Lua (<code>SceneLoader_lvl2.lua</code>). Com a <strong>Level Designer</strong>, vaig crear el layout definitiu del Nivell 1 i vaig redissenyar dos puzles clau detectant problemes de dificultat en playtesting. Com a <strong>QA</strong>, vaig mantenir sessions de testing contínues (>40h) al llarg de tots els milestones del projecte (Alpha 1 fins a Gold).</p>
+                    <p class="project-prose">La meva feina al projecte va abraçar tres àrees complementàries. Com a <strong>Technical Artist</strong>, vaig ser responsable de la integració d'assets a <strong>Wave Engine</strong>, ajust i col·locació precisa de Rigidbodies i colliders PhysX a ambdós nivells, correcció del navmesh, neteja de geometria invisible per optimitzar el rendiment i implementació del sistema de transició entre escenes amb scripts Lua (<code>SceneLoader_lvl2.lua</code>). Com a <strong>Level Designer</strong>, vaig crear el layout definitiu del Nivell 1 i vaig redissenyar dos puzles clau detectant problemes de dificultat en playtesting. Com a <strong>QA</strong>, vaig mantenir sessions de testing contínues (>40h) al llarg de totes les fites del projecte (Alpha 1 fins a Gold).</p>
                 `,
                 whatAndWhy: [
                     {
@@ -553,8 +553,8 @@ const projectsData = [
                     {
                         title: "Redisseny de Puzles — Dificultat i Aprenentatge Progressiu",
                         challenge: "Durant el playtesting vaig detectar que dos puzles clau del joc tenien una dificultat massa baixa per a la seva posició al nivell: el segon puzle d'Apol·lo i el puzle final del Nivell 2 tenien solucions massa evidents i no representaven el repte esperat per a la corba de dificultat.",
-                        what: "Vaig redissenyar el segon puzle d'Apol·lo introduint una mecànica que després es dóna per apresa, permetent que el jugador la descobreixi de forma natural abans de necessitar-la. Vaig recrear el puzle final del Nivell 2 potenciant l'ús de les tres màscares i integrant totes les mecàniques apreses al llarg del joc.",
-                        why: "Un bon puzle de tancament ha de posar a prova el que el jugador ha après i funcionar com a culminació coherent de la seva progressió. Augmentar la complexitat sense afegir noves mecàniques permet crear un repte satisfactori i alineat amb les expectatives de la fase final."
+                        what: "Vaig redissenyar el segon puzle d'Apol·lo introduint una mecànica que després es dona per apresa, cosa que permet que el jugador la descobreixi de forma natural abans de necessitar-la. Vaig recrear el puzle final del Nivell 2 potenciant l'ús de les tres màscares i integrant totes les mecàniques apreses al llarg del joc.",
+                        why: "Un bon puzle de tancament ha de posar a prova el que el jugador ha après i funcionar com a culminació coherent de la progressió. Augmentar la complexitat sense afegir noves mecàniques permet crear un repte satisfactori i alineat amb les expectatives de la fase final."
                     },
                     {
                         title: "Sistema de Transició d'Escena i Optimització Tècnica",
@@ -563,29 +563,29 @@ const projectsData = [
                         why: "Una transició suau redueix la dissonància cognitiva i millora la sensació de continuïtat narrativa. La condició per claus protegeix la progressió del disseny. La neteja i organització del motor són fonamentals per al treball en equip escalable i per mantenir un rendiment òptim del joc."
                     },
                     {
-                        title: "QA Continu — Playtesting a Cada Milestone",
-                        challenge: "En un equip de més de 30 persones amb lliuraments freqüents, els bugs i els problemes de balanç de dificultat eren inevitables i podien acumular-se entre milestones si no es monitoritzaven activament.",
+                        title: "QA Continu — Playtesting a Cada Fita",
+                        challenge: "En un equip de més de 30 persones amb lliuraments freqüents, els bugs i els problemes de balanç de dificultat eren inevitables i podien acumular-se entre fites si no es monitoritzaven activament.",
                         what: "Vaig realitzar sessions de playtesting sistemàtiques a cada entrega del projecte (Alpha 1, vs2, vs3, Alpha 2, Beta i Gold), cobrint el flux principal del joc, els puzles, el comportament del jugador en zones límit, les transicions d'escena i els estats del joc.",
                         why: "El QA continu integrat en el cicle de desenvolupament, en lloc de relegar-lo al final, permet detectar i prioritzar incidències mentre encara són solucionables sense grans costos. Vaig ajudar a assegurar que cada lliurament presentés un estat estable i jugable del producte."
                     }
                 ],
                 overview: `
                     <p class="modal-p"><strong>Son of Ithaca</strong> és una aventura de puzles en 3D ambientada en la mitologia grega, desenvolupada per un equip de més de 30 persones. El joc presenta dos nivells amb mecàniques de màscares, puzles progressius i un món construït col·laborativament.</p>
-                    <p class="modal-p">El meu rol va ser principalment de <strong>Technical Artist</strong> — integrant assets, gestionant colliders i optimitzant el motor — amb contribucions de <strong>Level Design</strong> (layout del Nivell 1, redisseny de puzles) i <strong>QA</strong> continu al llarg de tots els milestones.</p>
+                    <p class="modal-p">El meu rol va ser principalment de <strong>Technical Artist</strong> — integrant assets, gestionant colliders i optimitzant el motor — amb contribucions de <strong>Level Design</strong> (layout del Nivell 1, redisseny de puzles) i <strong>QA</strong> continu al llarg de totes les fites.</p>
                 `,
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Layout del Nivell 1</h4>
                     <p class="modal-p">En les fases inicials del projecte, vaig crear a partir del concepte un <strong>layout definitiu del Nivell 1</strong> indicant les zones més importants, el seu posicionament i com s'hi accedia. Això va servir de referència per a la resta de l'equip de disseny i art.</p>
 
                     <h4 class="modal-section-h3">2. Redisseny del Puzle d'Apol·lo</h4>
-                    <p class="modal-p">Després de detectar que la dificultat original era massa baixa per a la seva posició al nivell, vaig modificar el segon puzle d'Apol·lo. Vaig introduir una mecànica que més endavant es dóna per apresa, de manera que el jugador pugui descobrir-la de forma natural abans de necessitar-la. El resultat va ser una progressió d'aprenentatge més fluida i un repte més ajustat al context del nivell.</p>
+                    <p class="modal-p">Després de detectar que la dificultat original era massa baixa per a la seva posició al nivell, vaig modificar el segon puzle d'Apol·lo. Vaig introduir una mecànica que més endavant es dona per apresa, de manera que el jugador pugui descobrir-la de forma natural abans de necessitar-la. El resultat va ser una progressió d'aprenentatge més fluida i un repte més ajustat al context del nivell.</p>
 
                     <h4 class="modal-section-h3">3. Recreació del Puzle Final (Nivell 2)</h4>
                     <p class="modal-p">L'últim puzle del Nivell 2 presentava una solució massa evident i una baixa complexitat. El vaig recrear potenciant l'ús de les tres màscares i integrant de manera activa les diferents mecàniques que el jugador ha anat aprenent. L'objectiu: un repte que funcioni com a culminació coherent de la progressió jugable, sense necessitar noves funcionalitats.</p>
                 `,
                 qaBreakdown: `
                     <h4 class="modal-section-h3">QA Continu al Llarg del Projecte</h4>
-                    <p class="modal-p">Vaig realitzar sessions de playtesting a cada milestone del projecte — Alpha 1, vs2, vs3, Alpha 2, Beta i Gold — amb un total acumulat de més de 40 hores de testing. Vaig cobrir el flux principal de joc, els puzles, les transicions d'escena, el comportament del jugador en zones límit i l'estat general de la build.</p>
+                    <p class="modal-p">Vaig realitzar sessions de playtesting a cada fita del projecte — Alpha 1, vs2, vs3, Alpha 2, Beta i Gold — amb un total acumulat de més de 40 hores de testing. Vaig cobrir el flux principal de joc, els puzles, les transicions d'escena, el comportament del jugador en zones límit i l'estat general de la build.</p>
                     <p class="modal-p">El QA integrat en el cicle de desenvolupament va ser clau per mantenir cada entrega en un estat estable i detectar problemes mentre encara eren solucionables. Vaig reportar bugs trobats i vaig col·laborar directament amb l'equip per prioritzar i validar correccions.</p>
                 `,
                 gallery: [
@@ -945,7 +945,7 @@ const projectsData = [
         },
         excerpt: {
             es: "Diseño de 5 niveles jugables y 2 niveles de jefes en Tiled, sistema de 8 tipos de enemigos y 2 bosses, y testing diario con reporte en Loom y playtesting con usuarios externos.",
-            ca: "Disseny de 5 nivells jugables i 2 nivells de caps en Tiled, sistema de 8 tipus d'enemics i 2 bosses, i testing diari amb report en Loom i playtesting amb usuaris externs.",
+            ca: "Disseny de 5 nivells jugables i 2 nivells de boss en Tiled, sistema de 8 tipus d'enemics i 2 bosses, i testing diari amb report en Loom i playtesting amb usuaris externs.",
             en: "Design of 5 playable levels and 2 boss levels in Tiled, design and balancing of 8 enemy types and 2 bosses, and daily QA with Loom video reports and external user playtesting."
         },
         highlights: {
@@ -955,7 +955,7 @@ const projectsData = [
                 "QA sistemático: testing diario de builds, bug reporting en vídeo con Loom y pruebas de balance con 3 usuarios externos"
             ],
             ca: [
-                "Disseny de 5 nivells jugables i 2 nivells contra caps (DungBeetle i Nullwarden) amb prototipatge en Dungeon Scrawl i Tiled",
+                "Disseny de 5 nivells jugables i 2 nivells de boss (DungBeetle i Nullwarden) amb prototipatge en Dungeon Scrawl i Tiled",
                 "Disseny, catalogació i balanceig de 8 tipus d'enemics amb corba d'aparició progressiva al llarg dels biomes",
                 "QA sistemàtic: testing diari de builds, bug reporting en vídeo amb Loom i proves de balanç amb 3 usuaris externs"
             ],
@@ -1048,14 +1048,14 @@ const projectsData = [
             },
             ca: {
                 projectOverview: `
-                    <p class="project-prose"><strong>The Apprentice</strong> és un joc d'acció i plataformes en 2D amb estructura Metroidvania, desenvolupat sobre un motor propi en C++ per l'Equip 1 en el marc de l'assignatura Projecte 2 del CITM. El jugador recorre diferents biomes interconnectats (Tutorial, Manglar, Bosc Boreal i Bosc Calcinat), combinant seccions de plataformeu de precisió, combat contra enemics dinàmics i dos enfrontaments contra caps finals.</p>
+                    <p class="project-prose"><strong>The Apprentice</strong> és un joc d'acció i plataformes en 2D amb estructura Metroidvania, desenvolupat sobre un motor propi en C++ per l'Equip 1 en el marc de l'assignatura Projecte 2 del CITM. El jugador recorre diferents biomes interconnectats (Tutorial, Manglar, Bosc Boreal i Bosc Calcinat), combinant seccions de plataformes de precisió, combat contra enemics dinàmics i dos enfrontaments contra bosses finals.</p>
                 `,
                 myContribution: `
-                    <p class="project-prose">En el projecte vaig assumir dos rols fonamentals: <strong>Designer</strong> i <strong>QA</strong>. Com a Designer, vaig ser responsable de la creació del sistema de progressió de nivells, dissenyant <strong>5 nivells jugables i 2 nivells de caps</strong> en Tiled Map Editor després de prototipar com a mínim 3 versions de cada nivell a Dungeon Scrawl. També vaig dissenyar i balancejar el <strong>sistema d'enemics</strong>, creant 8 tipus d'enemics amb comportaments progressius i dos caps (DungBeetle i Nullwarden). Com a QA, vaig establir el procés de testing diari de builds amb l'equip de programació, vaig gestionar el report sistemàtic de bugs enregistrat en vídeo amb <strong>Loom</strong>, vaig coordinar sessions de testatge amb 3 usuaris externs i vaig verificar les proves de regressió després de cada correcció.</p>
+                    <p class="project-prose">En el projecte vaig assumir dos rols fonamentals: <strong>Designer</strong> i <strong>QA</strong>. Com a Designer, vaig ser responsable de la creació del sistema de progressió de nivells, dissenyant <strong>5 nivells jugables i 2 nivells de boss</strong> en Tiled Map Editor després de prototipar com a mínim 3 versions de cada nivell a Dungeon Scrawl. També vaig dissenyar i balancejar el <strong>sistema d'enemics</strong>, creant 8 tipus d'enemics amb comportaments progressius i dos bosses (DungBeetle i Nullwarden). Com a QA, vaig establir el procés de testing diari de builds amb l'equip de programació, vaig gestionar el report sistemàtic de bugs enregistrat en vídeo amb <strong>Loom</strong>, vaig coordinar sessions de testatge amb 3 usuaris externs i vaig verificar les proves de regressió després de cada correcció.</p>
                 `,
                 whatAndWhy: [
                     {
-                        title: "Disseny de 5 Nivells Jugables i 2 Nivells contra Caps en Tiled",
+                        title: "Disseny de 5 Nivells Jugables i 2 Nivells de Boss en Tiled",
                         challenge: "Construir una estructura de nivells que ensenyés progressivament les mecàniques del jugador, mantingués l'engagement constant i evités pics injustos de frustració des del tutorial fins als reptes avançats.",
                         what: "Vaig analitzar patrons de disseny en referents del gènere (Metroid Dread, Blasphemous, Hollow Knight i Animal Well). Vaig esbossar un mínim de 3 versions per nivell en eines com Dungeon Scrawl abans de passar al motor. A Tiled, vaig estructurar cada nivell en capes rigoroses (Background, Platforms, Collision, Enemies, Props), vaig calcular les distàncies òptimes entre plataformes, vaig definir checkpoints mitjançant objectes i vaig ajustar els colliders amb els tilesets finals de l'equip d'art.",
                         why: "Iterar primer en esbossos 2D ràpids estalvia temps de desenvolupament tècnic i permet validar el flux de joc. L'organització estricta per capes a Tiled evita confusions entre geometria transitable i art de fons, assegurant que el control de col·lisions sigui net i fiable."
@@ -1063,8 +1063,8 @@ const projectsData = [
                     {
                         title: "Disseny i Balanceig de 8 Tipus d'Enemics i 2 Bosses",
                         challenge: "Complementar les seccions de plataformes amb perills dinàmics que obliguessin el jugador a utilitzar les seves habilitats i creessin tensió rítmica sense entorpir l'avanç injustament.",
-                        what: "Vaig investigar patrons de comportament a Hollow Knight i Blasphemous, catalogant 9 tipus de conductes. Vaig dissenyar i introduir esglaonadament 8 enemics al llarg dels nivells: Creebler i Hypnoviper (Tutorial); Thumpod, Dreadspire i Scurver (Manglar 1-3); Bloodrusher, Mireborn, Broodheart i Noctilume (Bosc Boreal 1-3); i Shyver (Bosc Calcinat). Vaig dissenyar a més les arenes i mecàniques dels 2 caps: DungBeetle (Bosc Boreal 4) i Nullwarden (Bosc Calcinat 2), ajustant velocitats, àrees d'atac i col·lisions mitjançant playtesting.",
-                        why: "Una corba d'enemics esglaonada permet que el jugador aprengui a lidiar amb amenaces bàsiques abans de combinar enemics terrestres, voladors o d'envestida. Els caps actuen com a examen de mestratge de totes les mecàniques apreses al bioma."
+                        what: "Vaig investigar patrons de comportament a Hollow Knight i Blasphemous, catalogant 9 tipus de conductes. Vaig dissenyar i introduir esglaonadament 8 enemics al llarg dels nivells: Creebler i Hypnoviper (Tutorial); Thumpod, Dreadspire i Scurver (Manglar 1-3); Bloodrusher, Mireborn, Broodheart i Noctilume (Bosc Boreal 1-3); i Shyver (Bosc Calcinat). Vaig dissenyar a més les arenes i mecàniques dels 2 bosses: DungBeetle (Bosc Boreal 4) i Nullwarden (Bosc Calcinat 2), ajustant velocitats, àrees d'atac i col·lisions mitjançant playtesting.",
+                        why: "Una corba d'enemics esglaonada permet que el jugador aprengui a lidiar amb amenaces bàsiques abans de combinar enemics terrestres, voladors o d'envestida. Els bosses actuen com a examen de mestratge de totes les mecàniques apreses al bioma."
                     },
                     {
                         title: "QA Sistemàtic: Testing Diari, Loom Video Reporting i Tests Externs",
@@ -1074,11 +1074,11 @@ const projectsData = [
                     }
                 ],
                 overview: `
-                    <p class="modal-p"><strong>The Apprentice</strong> és un joc d'acció i plataformes en 2D desenvolupat per l'Equip 1 sobre un motor propi en C++ durant el Projecte 2 del CITM. Combina exploració de biomes hostils, combat contra criatures biomecàniques i plataformeu de precisió.</p>
-                    <p class="modal-p">Les meves aportacions clau segons el Report Individual del projecte van abraçar el rol de <strong>Designer</strong> (disseny dels 5 nivells jugables, 2 nivells de caps i sistema complet de 8 tipus d'enemics + 2 bosses en Tiled) i el rol de <strong>QA</strong> (testing diari de builds, bug reporting en vídeo amb Loom, tests amb usuaris externs i verificació de regressió).</p>
+                    <p class="modal-p"><strong>The Apprentice</strong> és un joc d'acció i plataformes en 2D desenvolupat per l'Equip 1 sobre un motor propi en C++ durant el Projecte 2 del CITM. Combina exploració de biomes hostils, combat contra criatures biomecàniques i plataformes de precisió.</p>
+                    <p class="modal-p">Les meves aportacions clau segons el Report Individual del projecte van abraçar el rol de <strong>Designer</strong> (disseny dels 5 nivells jugables, 2 nivells de boss i sistema complet de 8 tipus d'enemics + 2 bosses en Tiled) i el rol de <strong>QA</strong> (testing diari de builds, bug reporting en vídeo amb Loom, tests amb usuaris externs i verificació de regressió).</p>
                 `,
                 ldBreakdown: `
-                    <h4 class="modal-section-h3">1. Sistema de Progressió de Nivells (5 Nivells + 2 Caps)</h4>
+                    <h4 class="modal-section-h3">1. Sistema de Progressió de Nivells (5 Nivells + 2 Bosses)</h4>
                     <p class="modal-p">A partir de l'anàlisi de referents com <em>Metroid Dread</em>, <em>Blasphemous</em>, <em>Hollow Knight</em> i <em>Animal Well</em>, vaig dissenyar la progressió de nivells del joc:</p>
                     <ul class="modal-list">
                         <li><strong>Prototipatge Previ:</strong> Mínim 3 versions de cada nivell esbossades i exportades en eines com Dungeon Scrawl abans de la implementació final.</li>
@@ -1092,7 +1092,7 @@ const projectsData = [
                         <li><strong>Tutorial:</strong> Creebler + Hypnoviper (ensenyament de patrons bàsics).</li>
                         <li><strong>Manglar 1 a 3:</strong> Thumpod, Dreadspire i Scurver sumats als anteriors.</li>
                         <li><strong>Bosc Boreal 1 a 3:</strong> Bloodrusher, Mireborn, Broodheart i Noctilume.</li>
-                        <li><strong>Arenes de Caps:</strong> 1r Boss (<strong>DungBeetle</strong> a Bosc Boreal 4) i 2n Boss (<strong>Nullwarden</strong> a Bosc Calcinat 2).</li>
+                        <li><strong>Arenes de Boss:</strong> 1r Boss (<strong>DungBeetle</strong> a Bosc Boreal 4) i 2n Boss (<strong>Nullwarden</strong> a Bosc Calcinat 2).</li>
                     </ul>
                 `,
                 qaBreakdown: `
@@ -1107,10 +1107,10 @@ const projectsData = [
                 `,
                 gallery: [
                     { src: "assets/images/apprentice/apprentice_level_1.jpg", caption: "Disseny de nivells a Tiled - Distribució de capes de col·lisió, plataformes i enemics" },
-                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182830.png", caption: "Layout a Dungeon Scrawl - Arena del cap DungBeetle, puzles de plaques, portes i punxes" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182830.png", caption: "Layout a Dungeon Scrawl - Arena del boss DungBeetle, puzles de plaques, portes i punxes" },
                     { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182847.png", caption: "Mapa interconnectat del Manglar / Tutorial amb distribució d'enemics Creebler, Thumpod i checkpoints" },
                     { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182906.png", caption: "Bosc Boreal: progressió vertical, estalactites, mecàniques de hook i balanç d'enemics" },
-                    { src: "assets/images/apprentice/apprentice_level_2.jpg", caption: "Zona de plataformeu i repte amb integració d'enemics i obstacles" },
+                    { src: "assets/images/apprentice/apprentice_level_2.jpg", caption: "Zona de plataformes i repte amb integració d'enemics i obstacles" },
                     { src: "assets/images/apprentice/apprentice_dash_jump.jpg", caption: "Testing de mètriques de salt i dimensions de pas del personatge" }
                 ]
             },
@@ -1315,7 +1315,7 @@ const projectsData = [
             ca: {
                 projectOverview: `
                     <p class="project-prose">Suite de 3 nivells de puzles dissenyats sobre el motor de <strong>Baba Is You</strong> per a l'assignatura de Disseny de Nivells (CITM, UPC): <strong>Dungeon Caves 1</strong> (Codi: <code>KW3J-TNY7</code>), <strong>Dungeon Caves 2</strong> (Codi: <code>JUVJ-ZBJQ</code>) i <strong>Dungeon Caves 3</strong> (Codi: <code>HMHW-92NT</code>).</p>
-                    <p class="project-prose">A Baba Is You, les lleis de la física i la lògica existeixen com a paraules físiques empenyibles (ex. <code>BABA IS YOU</code>, <code>DOOR IS SHUT</code>, <code>KEY IS OPEN</code>). El projecte va explorar la mecànica d'<strong>Open / Shut</strong>, teleports interconnectats entre múltiples sales, enemics amb rutes de patrulla i una profunda iteració basada en playtesting amb usuaris reals.</p>
+                    <p class="project-prose">A Baba Is You, les lleis de la física i la lògica existeixen com a paraules físiques (ex. <code>BABA IS YOU</code>, <code>DOOR IS SHUT</code>, <code>KEY IS OPEN</code>). El projecte va explorar la mecànica d'<strong>Open / Shut</strong>, teleports interconnectats entre múltiples sales, enemics amb rutes de patrulla i una profunda iteració basada en playtesting amb usuaris reals.</p>
                 `,
                 myContribution: `
                     <p class="project-prose">Com a <strong>Puzzle & Level Designer</strong> en solitari, vaig conceptualitzar la progressió mecànica dels tres nivells, vaig dissenyar els layouts 2D i la paleta cromàtica diferenciada (parets i pedres contrastades per a màxima claredat cognitiva), vaig testejar la resolució lògica i vaig gestionar el procés de feedback: després de comprovar que el primer prototip resultava excessivament pla per als jugadors, vaig reorganitzar la jerarquia de nivells i vaig redissenyar el nivell final completament.</p>
@@ -1324,19 +1324,19 @@ const projectsData = [
                     {
                         title: "Nivell 1 — Dungeon Caves 1 (KW3J-TNY7): Dualitat 'Open' i 'Shut'",
                         challenge: "Presentar la mecànica d'obrir i tancar portes amb claus sense limitar-la a un pany genèric, demostrant que manipular aquestes propietats té conseqüències directes i letals sobre el personatge i els enemics.",
-                        what: "Vaig dissenyar un nivell on Baba ha d'esquivar enemics que patrullen horitzontalment mentre empeny una clau cap a la porta superior. En trobar-la inaccessible, el jugador baixa per un passadís amb dos enemics més per completar una condició lingüística, obrir la porta i després desfer la regla interna per tornar, creuar les roques i assolir la meta. Vaig ajustar els colors de parets i pedres per a una major claredat.",
+                        what: "Vaig dissenyar un nivell on Baba ha d'esquivar enemics que patrullen horitzontalment mentre empeny una clau cap a la porta superior. En trobar-la inaccessible, el jugador baixa per un passadís amb dos enemics més per completar una condició lingüística, obrir la porta i després desfer la regla interna per tornar, creuar les roques i assolir la meta. Vaig ajustar els colors de parets i pedres per més claredat.",
                         why: "Permet al jugador assimilar l'impacte sistèmic de les paraules: una condició mal plantejada provoca la derrota immediata, assolint un aprenentatge profund i actiu des del primer repte."
                     },
                     {
                         title: "Nivell 2 — Dungeon Caves 2 (JUVJ-ZBJQ): Xarxa de Teleports i Sales A-B-C",
                         challenge: "Elevar la complexitat espacial introduint teleports bidireccionals i obligant el jugador a planificar l'ordre de transport d'objectes a través d'estats canviants.",
                         what: "Vaig estructurar el nivell en tres sales interconnectades (A, B i C) mitjançant teleports de canonada. A la fase inicial (A → C), el jugador transporta la clau però topa amb obstacles intransitables. En tornar a la sala A i accedir a la B, manipula les frases globals del nivell: en moure 'SHUT' cap amunt fa que les roques siguin travessables, però activa el patrullatge vertical dels monstres, obligant Baba a esquivar-los amb precisió per obrir la porta amb la clau prèviament deixada.",
-                        why: "Introdueix el concepte de persistència espacial i conseqüències diferides: les accions realitzades en una sala modifiquen radicalment la seguretat i transitabilitat d'una altra."
+                        why: "Introdueix el concepte de persistència espacial i conseqüències diferides: les accions realitzades en una sala modifiquen radicalment la seguretat i transició d'una altra."
                     },
                     {
                         title: "Nivell 3 — Dungeon Caves 3 (HMHW-92NT): Culminació i Integració Sistèmica",
                         challenge: "Dissenyar un clímax que uneixi tot el que s'ha après (open/shut, teleports múltiples i enemics) augmentant el repte mental i la satisfacció sense generar frustració per soft-locks.",
-                        what: "Baba ha de fer primer que les soques siguin empenyibles mitjançant un teleport de canonada, empenyent-les a l'aigua per bastir un pont de retorn. Des del vestíbul central s'obren dues ales: a la sala esquerra (teleport de núvol), enemics patrullen en quadrat mantenint una condició als 4 costats que cal desmantellar esquivant-los; a la sala dreta inferior, se sincronitza el moviment rere els enemics per complir la regla de la clau, travessar les roques, arribar al teleport de pols i obrir la meta.",
+                        what: "Baba ha de fer primer que les soques es puguin empènyer mitjançant un teleport de canonada, empenyent-les a l'aigua per bastir un pont de retorn. Des del vestíbul central s'obren dues ales: a la sala esquerra (teleport de núvol), enemics patrullen en quadrat mantenint una condició als 4 costats que cal desmantellar esquivant-los; a la sala dreta inferior, se sincronitza el moviment rere els enemics per complir la regla de la clau, travessar les roques, arribar al teleport de pols i obrir la meta.",
                         why: "Ofereix un tancament gratificant on cada mecànica interactua harmònicament amb les altres, premiant la capacitat de deducció analítica i execució del jugador."
                     },
                     {
@@ -1355,7 +1355,7 @@ const projectsData = [
                     <ul class="modal-list">
                         <li><strong>Nivell 1 — Dungeon Caves 1 (Codi: KW3J-TNY7):</strong> Introducció a la dualitat 'open' i 'shut' amb claus i enemics, evitant derrotes per contacte i ensenyant a desfer condicions internes.</li>
                         <li><strong>Nivell 2 — Dungeon Caves 2 (Codi: JUVJ-ZBJQ):</strong> Estructura en tres sales interconnectades (A, B i C) mitjançant teleports bidireccionals, alteració de frases globals i activació de patrulles mòbils.</li>
-                        <li><strong>Nivell 3 — Dungeon Caves 3 (Codi: HMHW-92NT):</strong> Síntesi avançada amb soques empenyibles a l'aigua, múltiples teleports (canonada, núvol, pols) i desmuntatge de regles protegides per patrulles quadrades.</li>
+                        <li><strong>Nivell 3 — Dungeon Caves 3 (Codi: HMHW-92NT):</strong> Síntesi avançada amb soques a l'aigua, múltiples teleports (canonada, núvol, pols) i desmuntatge de regles protegides per patrulles quadrades.</li>
                     </ul>
 
                     <h4 class="modal-section-h3">2. Claredat Cognitiva i Paleta Cromàtica</h4>
