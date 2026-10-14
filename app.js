@@ -921,6 +921,7 @@ const projectsData = [
     },
     {
         id: "the-apprentice",
+        githubUrl: "https://github.com/oscaralonsoo/TheApprentice",
         categories: ["ld", "qa"],
         engine: {
             es: "Motor Propio C++ & Tiled",
@@ -980,7 +981,7 @@ const projectsData = [
         details: {
             es: {
                 projectOverview: `
-                    <p class="project-prose"><strong>The Apprentice</strong> es un juego de acción y plataformas en 2D con estructura Metroidvania, desarrollado sobre un motor propio en C++ por el Equipo 1 en el marco de la asignatura Projecte 2 del CITM. El jugador recorre distintos biomas interconectados (Tutorial, Manglar, Bosque Boreal y Bosque Calcinado), combinando secciones de plataformeo de precisión, combate frente a enemigos dinámicos y dos enfrentamientos contra jefes finales.</p>
+                    <p class="project-prose"><strong>The Apprentice</strong> es un juego de acción y plataformas en 2D con estructura Metroidvania, desarrollado sobre un motor propio en C++ por el Equipo 1 en el marco de la asignatura Projecte 2 del CITM (<a href="https://github.com/oscaralonsoo/TheApprentice" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> Repositorio de The Apprentice</a>). El jugador recorre distintos biomas interconectados (Tutorial, Manglar, Bosque Boreal y Bosque Calcinado), combinando secciones de plataformeo de precisión, combate frente a enemigos dinámicos y dos enfrentamientos contra jefes finales.</p>
                 `,
                 myContribution: `
                     <p class="project-prose">En el proyecto asumí dos roles fundamentales: <strong>Designer</strong> y <strong>QA</strong>. Como Designer, fui responsable de la creación del sistema de progresión de niveles, diseñando <strong>5 niveles jugables y 2 niveles de jefes</strong> en Tiled Map Editor tras prototipar al menos 3 versiones de cada nivel en Dungeon Scrawl. También diseñé y balanceé el <strong>sistema de enemigos</strong>, creando 8 tipos de enemigos con comportamientos progresivos y dos jefes (DungBeetle y Nullwarden). Como QA, establecí el proceso de testing diario de builds con el equipo de programación, gestioné el reporte sistemático de bugs grabado en vídeo con <strong>Loom</strong>, coordiné sesiones de testeo con 3 usuarios externos y verifiqué las pruebas de regresión tras cada corrección.</p>
@@ -1048,7 +1049,7 @@ const projectsData = [
             },
             ca: {
                 projectOverview: `
-                    <p class="project-prose"><strong>The Apprentice</strong> és un joc d'acció i plataformes en 2D amb estructura Metroidvania, desenvolupat sobre un motor propi en C++ per l'Equip 1 en el marc de l'assignatura Projecte 2 del CITM. El jugador recorre diferents biomes interconnectats (Tutorial, Manglar, Bosc Boreal i Bosc Calcinat), combinant seccions de plataformes de precisió, combat contra enemics dinàmics i dos enfrontaments contra bosses finals.</p>
+                    <p class="project-prose"><strong>The Apprentice</strong> és un joc d'acció i plataformes en 2D amb estructura Metroidvania, desenvolupat sobre un motor propi en C++ per l'Equip 1 en el marc de l'assignatura Projecte 2 del CITM (<a href="https://github.com/oscaralonsoo/TheApprentice" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> Repositori de The Apprentice</a>). El jugador recorre diferents biomes interconnectats (Tutorial, Manglar, Bosc Boreal i Bosc Calcinat), combinant seccions de plataformes de precisió, combat contra enemics dinàmics i dos enfrontaments contra bosses finals.</p>
                 `,
                 myContribution: `
                     <p class="project-prose">En el projecte vaig assumir dos rols fonamentals: <strong>Designer</strong> i <strong>QA</strong>. Com a Designer, vaig ser responsable de la creació del sistema de progressió de nivells, dissenyant <strong>5 nivells jugables i 2 nivells de boss</strong> en Tiled Map Editor després de prototipar com a mínim 3 versions de cada nivell a Dungeon Scrawl. També vaig dissenyar i balancejar el <strong>sistema d'enemics</strong>, creant 8 tipus d'enemics amb comportaments progressius i dos bosses (DungBeetle i Nullwarden). Com a QA, vaig establir el procés de testing diari de builds amb l'equip de programació, vaig gestionar el report sistemàtic de bugs enregistrat en vídeo amb <strong>Loom</strong>, vaig coordinar sessions de testatge amb 3 usuaris externs i vaig verificar les proves de regressió després de cada correcció.</p>
@@ -1116,7 +1117,7 @@ const projectsData = [
             },
             en: {
                 projectOverview: `
-                    <p class="project-prose"><strong>The Apprentice</strong> is a 2D Metroidvania action platformer developed on a custom C++ engine by Team 1 for the Projecte 2 course at CITM (UPC). Players traverse diverse interconnected biomes (Tutorial, Mangrove, Boreal Forest, and Calcinated Forest), overcoming precision platforming challenges, battling dynamic enemies, and conquering two major boss encounters.</p>
+                    <p class="project-prose"><strong>The Apprentice</strong> is a 2D Metroidvania action platformer developed on a custom C++ engine by Team 1 for the Projecte 2 course at CITM (UPC) (<a href="https://github.com/oscaralonsoo/TheApprentice" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> The Apprentice Repository</a>). Players traverse diverse interconnected biomes (Tutorial, Mangrove, Boreal Forest, and Calcinated Forest), overcoming precision platforming challenges, battling dynamic enemies, and conquering two major boss encounters.</p>
                 `,
                 myContribution: `
                     <p class="project-prose">I served in two primary roles: <strong>Designer</strong> and <strong>QA</strong>. As Designer, I authored the level progression architecture, designing <strong>5 playable levels and 2 boss levels</strong> in Tiled Map Editor after prototyping at least 3 layouts per level in Dungeon Scrawl. I also designed and balanced the <strong>enemy system</strong> (8 distinct enemy types plus two bosses: DungBeetle and Nullwarden). As QA, I managed daily build testing with the programming team, documented bugs via <strong>Loom</strong> video recordings with clear reproduction steps, coordinated external playtesting sessions with 3 external users, and ran regression passes on every fix.</p>
@@ -1949,6 +1950,11 @@ function renderProjectDetailPage() {
                     <strong>${t.proj_duration_label}</strong>
                     <span>${getLocalizedVal(project.duration)}</span>
                 </div>
+                ${project.githubUrl ? `
+                <div class="meta-strip-item">
+                    <strong>GitHub</strong>
+                    <span><a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> ${currentLang === 'ca' ? 'Repositori' : currentLang === 'en' ? 'Repository' : 'Repositorio'}</a></span>
+                </div>` : ""}
             </div>
 
             <div class="project-hero-cover-wrap" onclick="openLightbox('${project.coverImage}', '${titleText}')">

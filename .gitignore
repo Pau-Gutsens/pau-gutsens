@@ -1,0 +1,13 @@
+pdfs/
+*.pdf
+pdf_content*.txt
+
+assets/
+
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+.vscode/
+.idea/
