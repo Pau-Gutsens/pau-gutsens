@@ -12,9 +12,9 @@ Built as a single-file HTML — no frameworks, no dependencies, no build step.
 | Project | Role | Tools |
 |---|---|---|
 | **Parkour Shooter** | Level Designer | Unreal Engine 5, Blueprints |
-| **Son of Ithaca** | Level Designer · Technical Artist | Custom C++/Lua Engine |
+| **Son of Ithaca** | Level Designer · Technical Artist · QA| WaveEngine |
 | **Dungeon Caves** | Puzzle Designer | Baba is You |
-| **The Apprentice** | Level Designer | Custom Engine |
+| **The Apprentice** | Level Designer · QA | C++ |
 
 ---
 
@@ -39,4 +39,4 @@ open index.html
 ## Contact
 
 **pgutsens@gmail.com**  
-[linkedin.com/in/pau-gutsens-sanz](https://www.linkedin.com/in/pau-gutsens-sanz491a90315/) · [pagusa515.itch.io](https://pagusa515.itch.io/) · [github.com/PauGutsens](https://github.com/PauGutsens)
+[LinkedIn](https://www.linkedin.com/in/pau-gutsens-sanz491a90315/) · [Itch.io](https://pagusa515.itch.io/) · [Github](https://github.com/PauGutsens)
