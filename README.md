@@ -3,7 +3,7 @@
 Personal portfolio site showcasing level design, puzzle design, and technical art work.  
 Built as a single-file HTML — no frameworks, no dependencies, no build step.
 
-🌐 **[paugutsens.github.io](https://pau-gutsens.github.io/pau-gutsens/)**
+🌐 **[Portfolio](https://pau-gutsens.github.io/pau-gutsens/)**
 
 ---
 
