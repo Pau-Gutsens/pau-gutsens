@@ -85,7 +85,7 @@ const translations = {
         about_pre: "SOBRE MÍ",
         about_title: "Pau Gutsens Sanz",
         about_bio_1: "Estudio el Grado en Diseño y Desarrollo de Videojuegos en el <strong>CITM (UPC Terrassa)</strong>. Me interesa especialmente el diseño de niveles y el testeo de calidad (QA).",
-        about_bio_2: "He trabajado en proyectos de equipo tanto con motores propios en C++ como en Unity y Unreal Engine 5. Me gusta entender cómo juegan las personas y colaborar mano a mano con programadores y artistas para que cada nivel sea divertido, intuitivo y sólido.",
+        about_bio_2: "He trabajado en proyectos de equipo con motores propios en C++ (Wave Engine, Team 1) y Unreal Engine 5. Me gusta entender cómo juegan las personas y colaborar mano a mano con programadores y artistas para que cada nivel sea divertido, intuitivo y sólido.",
         about_langs: "Español (Nativo) • Catalán (Nativo) • Inglés (B2)",
 
         skills_ld_title: "Herramientas de Level Design",
@@ -218,7 +218,7 @@ const translations = {
         about_pre: "SOBRE MI",
         about_title: "Pau Gutsens Sanz",
         about_bio_1: "Estudio el Grau en Disseny i Desenvolupament de Videojocs al <strong>CITM (UPC Terrassa)</strong>. M'interessa especialment el disseny de nivells i el testatge de qualitat (QA).",
-        about_bio_2: "He treballat en projectes d'equip tant amb motors propis en C++ com en Unity i Unreal Engine 5. M'agrada entendre com juguen les persones i col·laborar braç a braç amb programadors i artistes perquè cada nivell sigui divertit, intuïtiu i sòlid.",
+        about_bio_2: "He treballat en projectes d'equip amb motors propis en C++ (Wave Engine, Team 1) i Unreal Engine 5. M'agrada entendre com juguen les persones i col·laborar braç a braç amb programadors i artistes perquè cada nivell sigui divertit, intuïtiu i sòlid.",
         about_langs: "Espanyol (Natiu) • Català (Natiu) • Anglès (B2)",
 
         skills_ld_title: "Eines de Level Design",
@@ -351,7 +351,7 @@ const translations = {
         about_pre: "ABOUT ME",
         about_title: "Pau Gutsens Sanz",
         about_bio_1: "I'm studying Game Design and Development at <strong>CITM (UPC Terrassa)</strong>, with a focus on level design and quality assurance (QA).",
-        about_bio_2: "I've worked on team projects across custom C++ engines, Unity, and Unreal Engine 5. I enjoy understanding how players think and working closely with programmers and artists to make levels that are fun, intuitive, and solid.",
+        about_bio_2: "I've worked on team projects across custom C++ engines (Wave Engine, Team 1) and Unreal Engine 5. I enjoy understanding how players think and working closely with programmers and artists to make levels that are fun, intuitive, and solid.",
         about_langs: "Spanish (Native) • Catalan (Native) • English (B2)",
 
         skills_ld_title: "Level Design Tools",
@@ -415,16 +415,18 @@ const projectsData = [
     {
         id: "son-of-ithaca",
         categories: ["ld", "qa"],
-        coverImage: "assets/images/ithaca_combat.png",
+        coverImage: "assets/images/Son of Ithaca/ithaca_combat.png",
+        githubUrl: "https://github.com/NobodyGamesStudio/WaveEngine",
+        githubUrl: "https://github.com/NobodyGamesStudio/WaveEngine",
         roles: {
             es: ["Technical Artist", "QA", "Diseñador de Niveles"],
             ca: ["Technical Artist", "QA", "Dissenyador de Nivells"],
             en: ["Technical Artist", "QA", "Level Designer"]
         },
         engine: {
-            es: "Unity (C#) · Herramientas Propias de Motor",
-            ca: "Unity (C#) · Eines Pròpies de Motor",
-            en: "Unity (C#) · Custom Engine Tools"
+            es: "Wave Engine (Motor Propio C++ / OpenGL 4.6)",
+            ca: "Wave Engine (Motor Propi C++ / OpenGL 4.6)",
+            en: "Wave Engine (Custom C++ / OpenGL 4.6 Engine)"
         },
         title: {
             es: "Son of Ithaca",
@@ -437,9 +439,9 @@ const projectsData = [
             en: "3D Puzzle-Adventure (Greek Mythology)"
         },
         excerpt: {
-            es: "Technical Art, integración de assets, diseño de puzzles y QA continuo en un equipo de 30+ personas a lo largo de múltiples milestones.",
-            ca: "Technical Art, integració d'assets, disseny de puzles i QA continu en un equip de 30+ persones al llarg de múltiples milestones.",
-            en: "Technical art, asset integration, puzzle design and continuous QA in a 30+ person team across multiple milestone builds."
+            es: "Technical Art, integración de assets y colliders PhysX, diseño de puzzles y QA continuo en Wave Engine (motor propio 3D en C++ de Nobody Games) con un equipo de 30+ personas.",
+            ca: "Technical Art, integració d'assets i colliders PhysX, disseny de puzles i QA continu a Wave Engine (motor propi 3D en C++ de Nobody Games) amb un equip de 30+ persones.",
+            en: "Technical Art, asset integration & PhysX colliders, puzzle design, and continuous QA in Wave Engine (Nobody Games' custom 3D C++ engine) within a 30+ person team."
         },
         highlights: {
             es: [
@@ -458,7 +460,7 @@ const projectsData = [
                 "Continuous QA with dedicated playtesting sessions at every project milestone"
             ]
         },
-        tags: ["Technical Art", "Collider Setup", "Asset Integration", "Puzzle Design", "QA & Playtesting", "Scene Transition"],
+        tags: ["Wave Engine (C++)", "OpenGL 4.6", "PhysX Colliders", "Lua Scripting", "Level Design & Puzzles", "QA & Playtesting"],
         team: {
             es: "30+ miembros de equipo (CITM Projecte 3 — Nobody Games)",
             ca: "30+ membres d'equip (CITM Projecte 3 — Nobody Games)",
@@ -473,10 +475,10 @@ const projectsData = [
         details: {
             es: {
                 projectOverview: `
-                    <p class="project-prose"><strong>Son of Ithaca</strong> es una aventura de puzzles en 3D inspirada en la mitología griega, desarrollada por un equipo multidisciplinar de más de 30 personas en el marco del Projecte 3 del CITM. El juego se estructura en dos niveles con puzzles progresivos, mecánicas de máscaras y un diseño de mundo cuidadosamente construido colaborativamente. Yo formé parte del Scrum Group 3, con rol principal de <strong>Technical Artist</strong>, complementado con tareas de <strong>QA</strong> y <strong>Level Design</strong>.</p>
+                    <p class="project-prose"><strong>Son of Ithaca</strong> es una aventura de puzzles en 3D inspirada en la mitología griega, desarrollada por un equipo multidisciplinar de más de 30 personas en el marco del Projecte 3 del CITM. El juego fue construido sobre <strong>Wave Engine</strong>, un motor propio 3D desarrollado en C++ y OpenGL 4.6 con físicas NVIDIA PhysX y scripting en Lua (<a href="https://github.com/NobodyGamesStudio/WaveEngine" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> Repositorio de WaveEngine</a>). El juego se estructura en dos niveles con puzzles progresivos, mecánicas de máscaras y un diseño de mundo cuidadosamente construido colaborativamente. Yo formé parte del Scrum Group 3, con rol principal de <strong>Technical Artist</strong>, complementado con tareas de <strong>QA</strong> y <strong>Level Design</strong>.</p>
                 `,
                 myContribution: `
-                    <p class="project-prose">Mi trabajo en el proyecto abarcó tres áreas complementarias. Como <strong>Technical Artist</strong>, fui responsable de la integración de assets en el motor, ajuste y colocación precisa de colliders en ambos niveles, corrección del navmesh, limpieza de geometría invisible para optimizar el rendimiento e implementación del sistema de transición entre escenas. Como <strong>Level Designer</strong>, creé el layout definitivo del Nivel 1 y rediseñé dos puzzles clave detectando problemas de dificultad. Como <strong>QA</strong>, mantuve sesiones de playtesting continuas a lo largo de todos los milestones del proyecto.</p>
+                    <p class="project-prose">Mi trabajo en el proyecto abarcó tres áreas complementarias. Como <strong>Technical Artist</strong>, fui responsable de la integración de assets en <strong>Wave Engine</strong>, ajuste y colocación precisa de Rigidbodies y colliders PhysX en ambos niveles, corrección del navmesh, limpieza de geometría invisible para optimizar el rendimiento e implementación del sistema de transición entre escenas con scripts Lua (<code>SceneLoader_lvl2.lua</code>). Como <strong>Level Designer</strong>, creé el layout definitivo del Nivel 1 y rediseñé dos puzzles clave detectando problemas de dificultad en playtesting. Como <strong>QA</strong>, mantuve sesiones de testing continuas (>40h) a lo largo de todos los milestones del proyecto (Alpha 1 hasta Gold).</p>
                 `,
                 whatAndWhy: [
                     {
@@ -524,18 +526,22 @@ const projectsData = [
                     <p class="modal-p">El QA integrado en el ciclo de desarrollo fue clave para mantener cada entrega en un estado estable y detectar issues mientras aún eran solucionables. Informé de bugs encontrados y colaboré directamente con el equipo para priorizar y validar correcciones.</p>
                 `,
                 gallery: [
-                    { src: "assets/images/ithaca_combat.png", caption: "Nivel 1 — Integración de assets y colliders en el entorno" },
-                    { src: "assets/images/ithaca_arena.png", caption: "Layout del Nivel 1 — Zonas, flujo y accesos" },
-                    { src: "assets/images/ithaca_boss.png", caption: "Puzzle rediseñado — Mecánicas de máscaras integradas" },
-                    { src: "assets/images/ithaca_environment.png", caption: "Jerarquía del motor organizada y transición entre escenas" }
+                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Nivel 1 — Integración de assets y colisiones en Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor — Inspector de componentes, Rigidbody, colliders PhysX y script SceneLoader_lvl2.lua" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine — Setup de Trigger Box Collider y script Collectible.lua con visualización de métricas" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-18 192452.png", caption: "Inspección en tiempo real de Navmesh y límites de terreno para prevenir soft-locks y caídas" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-05-26 214444 - copia - copia.png", caption: "Puzle de pedestales y mecánicas de máscaras con shaders dinámicos de agua y niebla en Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Layout definitivo del Nivel 1 — Zonas, flujo y accesos" },
+                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Puzle rediseñado en Nivel 2 — Integración de las tres máscaras" },
+                    { src: "assets/images/Son of Ithaca/ithaca_environment.png", caption: "Iluminación y composición escénica en Wave Engine" }
                 ]
             },
             ca: {
                 projectOverview: `
-                    <p class="project-prose"><strong>Son of Ithaca</strong> és una aventura de puzles en 3D inspirada en la mitologia grega, desenvolupada per un equip multidisciplinar de més de 30 persones en el marc del Projecte 3 del CITM. El joc s'estructura en dos nivells amb puzles progressius, mecàniques de màscares i un disseny de món acuradament construït col·laborativament. Vaig formar part de l'Scrum Group 3, amb rol principal de <strong>Technical Artist</strong>, complementat amb tasques de <strong>QA</strong> i <strong>Level Design</strong>.</p>
+                    <p class="project-prose"><strong>Son of Ithaca</strong> és una aventura de puzles en 3D inspirada en la mitologia grega, desenvolupada per un equip multidisciplinar de més de 30 persones en el marc del Projecte 3 del CITM. El joc va ser construït sobre <strong>Wave Engine</strong>, un motor propi 3D desenvolupat en C++ i OpenGL 4.6 amb físiques NVIDIA PhysX i scripting en Lua (<a href="https://github.com/NobodyGamesStudio/WaveEngine" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> Repositori de WaveEngine</a>). El joc s'estructura en dos nivells amb puzles progressius, mecàniques de màscares i un disseny de món acuradament construït col·laborativament. Vaig formar part de l'Scrum Group 3, amb rol principal de <strong>Technical Artist</strong>, complementat amb tasques de <strong>QA</strong> i <strong>Level Design</strong>.</p>
                 `,
                 myContribution: `
-                    <p class="project-prose">La meva feina al projecte va abraçar tres àrees complementàries. Com a <strong>Technical Artist</strong>, vaig ser responsable de la integració d'assets al motor, ajust i col·locació precisa de colliders a ambdós nivells, correcció del navmesh, neteja de geometria invisible per optimitzar el rendiment i implementació del sistema de transició entre escenes. Com a <strong>Level Designer</strong>, vaig crear el layout definitiu del Nivell 1 i vaig redissenyar dos puzles clau detectant problemes de dificultat. Com a <strong>QA</strong>, vaig mantenir sessions de playtesting contínues al llarg de tots els milestones del projecte.</p>
+                    <p class="project-prose">La meva feina al projecte va abraçar tres àrees complementàries. Com a <strong>Technical Artist</strong>, vaig ser responsable de la integració d'assets a <strong>Wave Engine</strong>, ajust i col·locació precisa de Rigidbodies i colliders PhysX a ambdós nivells, correcció del navmesh, neteja de geometria invisible per optimitzar el rendiment i implementació del sistema de transició entre escenes amb scripts Lua (<code>SceneLoader_lvl2.lua</code>). Com a <strong>Level Designer</strong>, vaig crear el layout definitiu del Nivell 1 i vaig redissenyar dos puzles clau detectant problemes de dificultat en playtesting. Com a <strong>QA</strong>, vaig mantenir sessions de testing contínues (>40h) al llarg de tots els milestones del projecte (Alpha 1 fins a Gold).</p>
                 `,
                 whatAndWhy: [
                     {
@@ -583,18 +589,22 @@ const projectsData = [
                     <p class="modal-p">El QA integrat en el cicle de desenvolupament va ser clau per mantenir cada entrega en un estat estable i detectar problemes mentre encara eren solucionables. Vaig reportar bugs trobats i vaig col·laborar directament amb l'equip per prioritzar i validar correccions.</p>
                 `,
                 gallery: [
-                    { src: "assets/images/ithaca_combat.png", caption: "Nivell 1 — Integració d'assets i colliders a l'entorn" },
-                    { src: "assets/images/ithaca_arena.png", caption: "Layout del Nivell 1 — Zones, flux i accessos" },
-                    { src: "assets/images/ithaca_boss.png", caption: "Puzle redissenyat — Mecàniques de màscares integrades" },
-                    { src: "assets/images/ithaca_environment.png", caption: "Jerarquia del motor organitzada i transició entre escenes" }
+                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Nivell 1 — Integració d'assets i col·lisions a Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor — Inspector de components, Rigidbody, colliders PhysX i script SceneLoader_lvl2.lua" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine — Setup de Trigger Box Collider i script Collectible.lua amb visualització de mètriques" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-18 192452.png", caption: "Inspecció en temps real de Navmesh i límits de terreny per prevenir soft-locks i caigudes" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-05-26 214444 - copia - copia.png", caption: "Puzle de pedestals i mecàniques de màscares amb shaders dinàmics d'aigua i boira a Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Layout definitiu del Nivell 1 — Zones, flux i accessos" },
+                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Puzle redissenyat al Nivell 2 — Integració de les tres màscares" },
+                    { src: "assets/images/Son of Ithaca/ithaca_environment.png", caption: "Il·luminació i composició escènica a Wave Engine" }
                 ]
             },
             en: {
                 projectOverview: `
-                    <p class="project-prose"><strong>Son of Ithaca</strong> is a 3D puzzle-adventure set in Greek mythology, developed by a 30+ person multidisciplinary team as part of CITM's Projecte 3. The game features two levels with progressive puzzles, mask mechanics and a collaboratively built world. I was part of Scrum Group 3, primarily as <strong>Technical Artist</strong>, with contributions in <strong>QA</strong> and <strong>Level Design</strong>.</p>
+                    <p class="project-prose"><strong>Son of Ithaca</strong> is a 3D puzzle-adventure set in Greek mythology, developed by a 30+ person multidisciplinary team as part of CITM's Projecte 3. The game was built on <strong>Wave Engine</strong>, a custom 3D game engine developed in C++ and OpenGL 4.6 with NVIDIA PhysX and Lua scripting (<a href="https://github.com/NobodyGamesStudio/WaveEngine" target="_blank" rel="noopener noreferrer" class="prose-link"><i class="fa-brands fa-github"></i> WaveEngine Repository</a>). The game features two levels with progressive puzzles, mask mechanics and a collaboratively built world. I was part of Scrum Group 3, primarily as <strong>Technical Artist</strong>, with contributions in <strong>QA</strong> and <strong>Level Design</strong>.</p>
                 `,
                 myContribution: `
-                    <p class="project-prose">My work covered three complementary areas. As <strong>Technical Artist</strong>, I was responsible for integrating assets into the engine, precisely placing and adjusting colliders across both levels, correcting the navmesh, cleaning up invisible geometry to improve performance, and implementing the scene transition system. As <strong>Level Designer</strong>, I created the definitive layout for Level 1 and redesigned two key puzzles after detecting difficulty issues. As <strong>QA</strong>, I ran continuous playtesting sessions throughout every milestone of the project.</p>
+                    <p class="project-prose">My work covered three complementary areas. As <strong>Technical Artist</strong>, I was responsible for integrating assets into <strong>Wave Engine</strong>, precisely configuring Rigidbodies and PhysX colliders across both levels, correcting the navmesh, cleaning up invisible geometry to improve performance, and implementing the scene transition system via Lua scripts (<code>SceneLoader_lvl2.lua</code>). As <strong>Level Designer</strong>, I created the definitive layout for Level 1 and redesigned two key puzzles after detecting difficulty issues. As <strong>QA</strong>, I ran continuous playtesting passes (>40h) throughout every milestone of the project from Alpha 1 to Gold.</p>
                 `,
                 whatAndWhy: [
                     {
@@ -642,10 +652,14 @@ const projectsData = [
                     <p class="modal-p">Continuous QA integrated into the development cycle was key to keeping each delivery in a stable state and detecting issues while still solvable. I reported bugs and collaborated directly with the team to prioritize and validate fixes.</p>
                 `,
                 gallery: [
-                    { src: "assets/images/ithaca_combat.png", caption: "Level 1 — Asset and collider integration in the environment" },
-                    { src: "assets/images/ithaca_arena.png", caption: "Level 1 Layout — Zones, flow and access routes" },
-                    { src: "assets/images/ithaca_boss.png", caption: "Redesigned puzzle — Mask mechanics integrated" },
-                    { src: "assets/images/ithaca_environment.png", caption: "Organized engine hierarchy and scene transition system" }
+                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Level 1 — Asset integration and PhysX collisions in Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor — Component inspector, Rigidbody, PhysX colliders & SceneLoader_lvl2.lua script" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine — Trigger Box Collider setup and Collectible.lua script with metric debug lines" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-18 192452.png", caption: "Real-time Navmesh and terrain boundary inspection preventing out-of-bounds player fallthroughs" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-05-26 214444 - copia - copia.png", caption: "Pedestal puzzle and mask mechanics featuring dynamic water shaders and volumetric fog in Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Level 1 Definitive Layout — Zones, player flow and access routes" },
+                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Redesigned Level 2 puzzle — Active integration of all three masks" },
+                    { src: "assets/images/Son of Ithaca/ithaca_environment.png", caption: "Lighting and environmental composition in custom Wave Engine" }
                 ]
             }
         }
@@ -654,7 +668,7 @@ const projectsData = [
         id: "ue5-blockout",
         categories: ["ld"],
         engine: "Unreal Engine 5",
-        coverImage: "assets/images/ue5_blockout_1.png",
+        coverImage: "assets/images/blockout_extracted/ue5_blockout_1.png",
         roles: {
             es: ["Diseñador de Niveles"],
             ca: ["Dissenyador de Nivells"],
@@ -763,10 +777,12 @@ const projectsData = [
                     </ul>
                 `,
                 gallery: [
-                    { src: "assets/images/ue5_blockout_1.png", caption: "Vista panorámica del blockout en UE5 - Enmarcado visual y jerarquía de alturas" },
-                    { src: "assets/images/ue5_blockout_2.png", caption: "Ruta de exploración secundaria con iluminación direccional y métricas de salto" },
-                    { src: "assets/images/ue5_blockout_3.png", caption: "Arena de combate intermedia con coberturas modulares y escaleras" },
-                    { src: "assets/images/blockout_extracted/page6_img1.jpeg", caption: "Prototipado en Unreal Engine - Grid materials métricos, iluminación y escala del personaje" }
+                    { src: "assets/images/blockout_extracted/ue5_blockout_1.png", caption: "Vista panorámica del blockout en UE5 - Enmarcado visual y jerarquía de alturas" },
+                    { src: "assets/images/blockout_extracted/ue5_blockout_2.png", caption: "Ruta de exploración secundaria con iluminación direccional y métricas de salto" },
+                    { src: "assets/images/blockout_extracted/ue5_blockout_3.png", caption: "Arena de combate intermedia con coberturas modulares y escaleras" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-01 114153.png", caption: "Prototipado en Unreal Engine - Grid materials métricos, iluminación y escala del personaje" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-11 131109.png", caption: "Validación de líneas de visión, landmarks y enmarcado arquitectónico" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-11 185842.png", caption: "Detalle de alturas de cobertura y espacio de combate en tercera persona" }
                 ]
             },
             ca: {
@@ -827,10 +843,12 @@ const projectsData = [
                     </ul>
                 `,
                 gallery: [
-                    { src: "assets/images/ue5_blockout_1.png", caption: "Vista panoràmica del blockout a UE5 - Emmarcat visual i jerarquia d'alçades" },
-                    { src: "assets/images/ue5_blockout_2.png", caption: "Ruta d'exploració secundària amb il·luminació direccional i mètriques de salt" },
-                    { src: "assets/images/ue5_blockout_3.png", caption: "Arena de combat intermèdia amb cobertures modulars i escales" },
-                    { src: "assets/images/blockout_extracted/page6_img1.jpeg", caption: "Prototipatge a Unreal Engine - Grid materials mètrics, il·luminació i escala del personatge" }
+                    { src: "assets/images/blockout_extracted/ue5_blockout_1.png", caption: "Vista panoràmica del blockout a UE5 - Emmarcat visual i jerarquia d'alçades" },
+                    { src: "assets/images/blockout_extracted/ue5_blockout_2.png", caption: "Ruta d'exploració secundària amb il·luminació direccional i mètriques de salt" },
+                    { src: "assets/images/blockout_extracted/ue5_blockout_3.png", caption: "Arena de combat intermèdia amb cobertures modulars i escales" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-01 114153.png", caption: "Prototipatge a Unreal Engine - Grid materials mètrics, il·luminació i escala del personatge" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-11 131109.png", caption: "Validació de línies de visió, landmarks i emmarcat arquitectònic" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-11 185842.png", caption: "Detall d'alçades de cobertura i espai de combat en tercera persona" }
                 ]
             },
             en: {
@@ -891,10 +909,12 @@ const projectsData = [
                     </ul>
                 `,
                 gallery: [
-                    { src: "assets/images/ue5_blockout_1.png", caption: "Panoramic UE5 greybox view - Visual framing and height hierarchy" },
-                    { src: "assets/images/ue5_blockout_2.png", caption: "Secondary exploration branch with directional lighting and jump metrics" },
-                    { src: "assets/images/ue5_blockout_3.png", caption: "Intermediate combat courtyard with modular cover blocks and stairs" },
-                    { src: "assets/images/blockout_extracted/page6_img1.jpeg", caption: "Unreal Engine prototyping - Metric grid materials, lighting cues, and player scale" }
+                    { src: "assets/images/blockout_extracted/ue5_blockout_1.png", caption: "Panoramic UE5 greybox view - Visual framing and height hierarchy" },
+                    { src: "assets/images/blockout_extracted/ue5_blockout_2.png", caption: "Secondary exploration branch with directional lighting and jump metrics" },
+                    { src: "assets/images/blockout_extracted/ue5_blockout_3.png", caption: "Intermediate combat courtyard with modular cover blocks and stairs" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-01 114153.png", caption: "Unreal Engine prototyping - Metric grid materials, lighting cues, and player scale" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-11 131109.png", caption: "Sightlines, landmarks, and architectural visual framing validation" },
+                    { src: "assets/images/blockout_extracted/Captura de pantalla 2026-01-11 185842.png", caption: "Cover heights and third-person combat arena spatial clearance" }
                 ]
             }
         }
@@ -907,7 +927,7 @@ const projectsData = [
             ca: "Motor Propi C++ & Tiled",
             en: "Custom C++ Engine & Tiled"
         },
-        coverImage: "assets/images/apprentice_level_1.jpg",
+        coverImage: "assets/images/apprentice/apprentice_level_1.jpg",
         roles: {
             es: ["Diseñador", "QA"],
             ca: ["Dissenyador", "QA"],
@@ -945,6 +965,7 @@ const projectsData = [
                 "Systematic QA: daily build testing, video bug reporting via Loom, and usability/balancing sessions with 3 external users"
             ]
         },
+        tags: ["Motor Propio C++", "Tiled Map Editor", "Metroidvania 2D", "Diseño de Enemigos", "Bug Reporting en Vídeo (Loom)", "Playtesting con Usuarios"],
         team: {
             es: "Equipo 1 (CITM Projecte 2)",
             ca: "Equip 1 (CITM Projecte 2)",
@@ -1017,10 +1038,12 @@ const projectsData = [
                     </ul>
                 `,
                 gallery: [
-                    { src: "assets/images/apprentice_level_1.jpg", caption: "Diseño de niveles en Tiled - Distribución de capas de colisión, plataformas y enemigos" },
-                    { src: "assets/images/apprentice_level_2.jpg", caption: "Zona de plataformeo y desafío con integración de enemigos y obstáculos" },
-                    { src: "assets/images/apprentice_level_3.jpg", caption: "Boceto y layout de progresión entre biomas de The Apprentice" },
-                    { src: "assets/images/apprentice_dash_jump.jpg", caption: "Testing de métricas de salto y dimensiones de paso del personaje" }
+                    { src: "assets/images/apprentice/apprentice_level_1.jpg", caption: "Diseño de niveles en Tiled - Distribución de capas de colisión, plataformas y enemigos" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182830.png", caption: "Layout en Dungeon Scrawl - Arena del jefe DungBeetle, puzles de placas, puertas y pinchos" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182847.png", caption: "Mapa interconectado del Manglar / Tutorial con distribución de enemigos Creebler, Thumpod y checkpoints" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182906.png", caption: "Bioma Boreal: progresión vertical, estalactitas, mecánicas de hook y balance de enemigos" },
+                    { src: "assets/images/apprentice/apprentice_level_2.jpg", caption: "Zona de plataformeo y desafío con integración de enemigos y obstáculos" },
+                    { src: "assets/images/apprentice/apprentice_dash_jump.jpg", caption: "Testing de métricas de salto y dimensiones de paso del personaje" }
                 ]
             },
             ca: {
@@ -1083,10 +1106,12 @@ const projectsData = [
                     </ul>
                 `,
                 gallery: [
-                    { src: "assets/images/apprentice_level_1.jpg", caption: "Disseny de nivells a Tiled - Distribució de capes de col·lisió, plataformes i enemics" },
-                    { src: "assets/images/apprentice_level_2.jpg", caption: "Zona de plataformeu i repte amb integració d'enemics i obstacles" },
-                    { src: "assets/images/apprentice_level_3.jpg", caption: "Esbós i layout de progressió entre biomes de The Apprentice" },
-                    { src: "assets/images/apprentice_dash_jump.jpg", caption: "Testing de mètriques de salt i dimensions de pas del personatge" }
+                    { src: "assets/images/apprentice/apprentice_level_1.jpg", caption: "Disseny de nivells a Tiled - Distribució de capes de col·lisió, plataformes i enemics" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182830.png", caption: "Layout a Dungeon Scrawl - Arena del cap DungBeetle, puzles de plaques, portes i punxes" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182847.png", caption: "Mapa interconnectat del Manglar / Tutorial amb distribució d'enemics Creebler, Thumpod i checkpoints" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182906.png", caption: "Bosc Boreal: progressió vertical, estalactites, mecàniques de hook i balanç d'enemics" },
+                    { src: "assets/images/apprentice/apprentice_level_2.jpg", caption: "Zona de plataformeu i repte amb integració d'enemics i obstacles" },
+                    { src: "assets/images/apprentice/apprentice_dash_jump.jpg", caption: "Testing de mètriques de salt i dimensions de pas del personatge" }
                 ]
             },
             en: {
@@ -1149,10 +1174,12 @@ const projectsData = [
                     </ul>
                 `,
                 gallery: [
-                    { src: "assets/images/apprentice_level_1.jpg", caption: "Tiled level design - Layer structure across collision, platforms, and enemy spawns" },
-                    { src: "assets/images/apprentice_level_2.jpg", caption: "Platforming challenge section integrating dynamic enemy obstacles" },
-                    { src: "assets/images/apprentice_level_3.jpg", caption: "Biome transition layout and progression flow in The Apprentice" },
-                    { src: "assets/images/apprentice_dash_jump.jpg", caption: "Jump metric testing and character traversal clearance" }
+                    { src: "assets/images/apprentice/apprentice_level_1.jpg", caption: "Tiled level design - Layer structure across collision, platforms, and enemy spawns" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182830.png", caption: "Dungeon Scrawl Layout - DungBeetle boss arena, plate puzzles, doors, and spikes" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182847.png", caption: "Mangrove / Tutorial interconnected map with Creebler, Thumpod enemy spawns, and checkpoints" },
+                    { src: "assets/images/apprentice/Captura de pantalla 2026-10-13 182906.png", caption: "Boreal Forest: vertical progression, stalactite hazards, hook mechanics, and enemy balancing" },
+                    { src: "assets/images/apprentice/apprentice_level_2.jpg", caption: "Platforming challenge section integrating dynamic enemy obstacles" },
+                    { src: "assets/images/apprentice/apprentice_dash_jump.jpg", caption: "Jump metric testing and character traversal clearance" }
                 ]
             }
         }
@@ -1601,7 +1628,8 @@ function renderProjects() {
             <li><i class="fa-solid fa-chevron-right"></i> <span>${hl}</span></li>
         `).join("");
 
-        const tagsHtml = project.tags.map(t => `<span class="card-tag">${t}</span>`).join("");
+        const tagsList = Array.isArray(project.tags) ? project.tags : [];
+        const tagsHtml = tagsList.map(t => `<span class="card-tag">${t}</span>`).join("");
         const titleText = project.title[currentLang] || project.title.es;
         const excerptText = project.excerpt[currentLang] || project.excerpt.es;
         const viewCaseText = translations[currentLang] ? translations[currentLang].view_case_study : "Ver Proyecto";
@@ -1853,7 +1881,8 @@ function renderProjectDetailPage() {
     // Role tags & engine badges
     const rolesList = getLocalizedList(project.roles);
     const rolesHtml = rolesList.map(r => `<span class="badge badge-ld">${r}</span>`).join(" ");
-    const tagsHtml = project.tags.map(tagItem => `<span class="tag">${tagItem}</span>`).join(" ");
+    const tagsList = Array.isArray(project.tags) ? project.tags : [];
+    const tagsHtml = tagsList.map(tagItem => `<span class="tag">${tagItem}</span>`).join(" ");
 
     // What & Why Cards HTML
     const whatAndWhyHtml = (d.whatAndWhy || []).map((item, idx) => `

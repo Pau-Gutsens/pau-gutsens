@@ -2082,3 +2082,18 @@ button {
     }
 }
 
+
+
+/* Link inside project prose */
+.prose-link {
+    color: var(--accent-primary);
+    text-decoration: underline;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: color var(--transition-fast);
+}
+.prose-link:hover {
+    color: #fff;
+}
