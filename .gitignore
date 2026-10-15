@@ -1,5 +1,7 @@
 pdfs/
 *.pdf
+!CV/CV_Pau_Gutsens.pdf
+!CV_Pau_Gutsens.pdf
 pdf_content*.txt
 
 assets/
