@@ -4,7 +4,6 @@ Personal portfolio site showcasing level design, puzzle design, and technical ar
 Built as a single-file HTML — no frameworks, no dependencies, no build step.
 
 🌐 **[Portfolio](https://pau-gutsens.github.io/pau-gutsens/)**
-=======
 🌐 **[pau-gutsens.github.io/pau-gutsens](https://pau-gutsens.github.io/pau-gutsens/)**
 
 
@@ -14,17 +13,10 @@ Built as a single-file HTML — no frameworks, no dependencies, no build step.
 
 | Project | Role | Tools |
 |---|---|---|
-<<<<<<< Updated upstream
-| **Parkour Shooter** | Level Designer | Unreal Engine 5, Blueprints |
-| **Son of Ithaca** | Level Designer · Technical Artist · QA| WaveEngine |
-| **Dungeon Caves** | Puzzle Designer | Baba is You |
-| **The Apprentice** | Level Designer · QA | C++ |
-=======
 | **Son of Ithaca** | Technical Artist · Level Designer · QA | Wave Engine (C++ / OpenGL) |
 | **UE5 Level Blockout** | Solo Level Designer | Unreal Engine 5 |
 | **The Apprentice** | Level Designer · QA | Custom C++ Engine · Tiled |
 | **Dungeon Caves (Baba is You)** | Puzzle & Level Designer | Baba is You |
->>>>>>> Stashed changes
 
 ---
 
