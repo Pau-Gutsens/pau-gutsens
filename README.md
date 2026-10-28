@@ -1,10 +1,10 @@
-# Pau Gutsens — Level Design Portfolio
+# Pau Gutsens | Level Design Portfolio
 
-Personal portfolio site showcasing level design, puzzle design, and technical art work.  
-Built as a single-file HTML — no frameworks, no dependencies, no build step.
+Personal portfolio site showcasing level design, puzzle design, and QA work.  
+Built with clean HTML, CSS, and vanilla JavaScript (no frameworks, no build step).
 
-🌐 **[Portfolio](https://pau-gutsens.github.io/pau-gutsens/)**
-🌐 **[pau-gutsens.github.io/pau-gutsens](https://pau-gutsens.github.io/pau-gutsens/)**
+**[Portfolio Online](https://pau-gutsens.github.io/pau-gutsens/)**
+
 
 
 ---

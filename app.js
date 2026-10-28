@@ -124,13 +124,13 @@ const translations = {
         proj_zoom_hint: "Click para ampliar",
 
         // Page intro banner (index.html)
-        page_intro_title: "Pau Gutsens — Level Design & QA",
+        page_intro_title: "Pau Gutsens | Level Design & QA",
         page_intro_sub: "Diseñador de niveles y tester de QA para videojuegos. Estudiante en CITM (UPC).",
 
         // About page extras
         about_tagline: "Level Designer & QA Tester · CITM (UPC)",
         about_location: "Barcelona, España",
-        about_edu: "CITM (UPC) — 2023 - Presente",
+        about_edu: "CITM (UPC), 2023 - Presente",
         about_what_pre: "LO QUE HAGO",
         about_what_title: "Mis especialidades",
         about_ld_card_title: "Level Design",
@@ -257,13 +257,13 @@ const translations = {
         proj_zoom_hint: "Clic per ampliar",
 
         // Page intro banner (index.html)
-        page_intro_title: "Pau Gutsens — Level Design & QA",
+        page_intro_title: "Pau Gutsens | Level Design & QA",
         page_intro_sub: "Dissenyador de nivells i tester de QA per a videojocs. Estudiant al CITM (UPC).",
 
         // About page extras
         about_tagline: "Level Designer & QA Tester · CITM (UPC)",
         about_location: "Barcelona, Catalunya",
-        about_edu: "CITM (UPC) — 2023 - Present",
+        about_edu: "CITM (UPC), 2023 - Present",
         about_what_pre: "EL QUE FAIG",
         about_what_title: "Les meves especialitats",
         about_ld_card_title: "Level Design",
@@ -285,7 +285,7 @@ const translations = {
         nav_contact: "Contact",
 
         hero_title: "Hi, I'm Pau. I design levels and make sure games play and run well.",
-        hero_subtitle: "Game Design & Development student at CITM (UPC). Working across level design, technical art, and QA — I enjoy building playable spaces just as much as breaking them to make them rock-solid.",
+        hero_subtitle: "Game Design & Development student at CITM (UPC). Working across level design, technical art, and QA; I enjoy building playable spaces just as much as breaking them to make them rock-solid.",
 
         pill_ld_title: "Level Design",
         pill_ld_desc: "Layout • Blockout • Puzzles • Iteration",
@@ -462,9 +462,9 @@ const projectsData = [
         },
         tags: ["Wave Engine (C++)", "OpenGL 4.6", "PhysX Colliders", "Lua Scripting", "Level Design & Puzzles", "QA & Playtesting"],
         team: {
-            es: "30+ miembros de equipo (CITM Projecte 3 — Nobody Games)",
-            ca: "30+ membres d'equip (CITM Projecte 3 — Nobody Games)",
-            en: "30+ team members (CITM Projecte 3 — Nobody Games)"
+            es: "30+ miembros de equipo (CITM Projecte 3: Nobody Games)",
+            ca: "30+ membres d'equip (CITM Projecte 3: Nobody Games)",
+            en: "30+ team members (CITM Projecte 3: Nobody Games)"
         },
         duration: {
             es: "5 meses (Primavera 2026)",
@@ -488,7 +488,7 @@ const projectsData = [
                         why: "Garantizar que la geometría de colisión fuera precisa, coherente y justa es crítico para la experiencia de juego. Un collider impreciso rompe la inmersión y puede provocar que el jugador acceda a zonas fuera del diseño previsto o que experimente frustración por colisiones injustas."
                     },
                     {
-                        title: "Rediseño de Puzzles — Dificultad y Aprendizaje Progresivo",
+                        title: "Rediseño de Puzzles: Dificultad y Aprendizaje Progresivo",
                         challenge: "Durante el playtesting detecté que dos puzzles clave del juego tenían una dificultad demasiado baja para su posición en el nivel: el segundo puzzle de Apolo y el puzzle final del Nivel 2 tenían soluciones demasiado evidentes y no representaban el reto esperado para su posición en la curva de dificultad.",
                         what: "Rediseñé el segundo puzzle de Apolo introduciendo una mecánica que luego se da por aprendida, permitiendo que el jugador la descubra de forma natural antes de necesitarla. Recreé el puzzle final del Nivel 2 potenciando el uso de las tres máscaras e integrando todas las mecánicas aprendidas a lo largo del juego.",
                         why: "Un buen puzzle de cierre debe poner a prueba lo que el jugador ha aprendido y funcionar como culminación coherente de su progresión. Aumentar la complejidad sin añadir nuevas mecánicas permite crear un reto satisfactorio y alineado con las expectativas de la fase final."
@@ -500,7 +500,7 @@ const projectsData = [
                         why: "Una transición suave reduce la disonancia cognitiva y mejora la sensación de continuidad narrativa. La condición por 'claus' protege la progresión del diseño. La limpieza y organización del motor son fundamentales para el trabajo en equipo escalable y para mantener un rendimiento óptimo del juego."
                     },
                     {
-                        title: "QA Continuo — Playtesting en Cada Milestone",
+                        title: "QA Continuo: Playtesting en Cada Milestone",
                         challenge: "En un equipo de más de 30 personas con entregas frecuentes, los bugs y los problemas de balance de dificultad eran inevitables y podían acumularse entre milestones si no se monitorizaban de forma activa.",
                         what: "Realicé sesiones de playtesting sistemáticas en cada entrega del proyecto (Alpha 1, vs2, vs3, Alpha 2, Beta y Gold), cubriendo el flujo principal del juego, los puzzles, el comportamiento del jugador en zonas límite, las transiciones de escena y los estados del juego.",
                         why: "El QA continuo integrado en el ciclo de desarrollo, en lugar de relegarlo al final, permite detectar y priorizar issues mientras aún son solucionables sin grandes costes. Ayudé a asegurar que cada entrega presentara un estado estable y jugable del producto."
@@ -508,7 +508,7 @@ const projectsData = [
                 ],
                 overview: `
                     <p class="modal-p"><strong>Son of Ithaca</strong> es una aventura de puzzles en 3D ambientada en la mitología griega, desarrollada por un equipo de más de 30 personas. El juego presenta dos niveles con mecánicas de máscaras, puzzles progresivos y un mundo construido colaborativamente.</p>
-                    <p class="modal-p">Mi rol fue principalmente de <strong>Technical Artist</strong> — integrando assets, gestionando colliders y optimizando el motor — con contribuciones de <strong>Level Design</strong> (layout del Nivel 1, rediseño de puzzles) y <strong>QA</strong> continuo a lo largo de todos los milestones.</p>
+                    <p class="modal-p">Mi rol fue principalmente de <strong>Technical Artist</strong> (integrando assets, gestionando colliders y optimizando el motor), con contribuciones de <strong>Level Design</strong> (layout del Nivel 1, rediseño de puzzles) y <strong>QA</strong> continuo a lo largo de todos los milestones.</p>
                 `,
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Layout del Nivel 1</h4>
@@ -522,17 +522,17 @@ const projectsData = [
                 `,
                 qaBreakdown: `
                     <h4 class="modal-section-h3">QA Continuo a lo Largo del Proyecto</h4>
-                    <p class="modal-p">Realicé sesiones de playtesting en cada milestone del proyecto — Alpha 1, vs2, vs3, Alpha 2, Beta y Gold — con un total acumulado de más de 40 horas de testing. Cubrí el flujo principal de juego, los puzzles, las transiciones de escena, el comportamiento del jugador en zonas límite y el estado general de la build.</p>
+                    <p class="modal-p">Realicé sesiones de playtesting en cada milestone del proyecto (Alpha 1, vs2, vs3, Alpha 2, Beta y Gold) con un total acumulado de más de 40 horas de testing. Cubrí el flujo principal de juego, los puzzles, las transiciones de escena, el comportamiento del jugador en zonas límite y el estado general de la build.</p>
                     <p class="modal-p">El QA integrado en el ciclo de desarrollo fue clave para mantener cada entrega en un estado estable y detectar issues mientras aún eran solucionables. Informé de bugs encontrados y colaboré directamente con el equipo para priorizar y validar correcciones.</p>
                 `,
                 gallery: [
-                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Nivel 1 — Integración de assets y colisiones en Wave Engine" },
-                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor — Inspector de componentes, Rigidbody, colliders PhysX y script SceneLoader_lvl2.lua" },
-                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine — Setup de Trigger Box Collider y script Collectible.lua con visualización de métricas" },
+                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Nivel 1: Integración de assets y colisiones en Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor: Inspector de componentes, Rigidbody, colliders PhysX y script SceneLoader_lvl2.lua" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine: Setup de Trigger Box Collider y script Collectible.lua con visualización de métricas" },
                     { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-18 192452.png", caption: "Inspección en tiempo real de Navmesh y límites de terreno para prevenir soft-locks y caídas" },
                     { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-05-26 214444 - copia - copia.png", caption: "Puzle de pedestales y mecánicas de máscaras con shaders dinámicos de agua y niebla en Wave Engine" },
-                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Layout definitivo del Nivel 1 — Zonas, flujo y accesos" },
-                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Puzle rediseñado en Nivel 2 — Integración de las tres máscaras" },
+                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Layout definitivo del Nivel 1: Zonas, flujo y accesos" },
+                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Puzle rediseñado en Nivel 2: Integración de las tres máscaras" },
                     { src: "assets/images/Son of Ithaca/ithaca_environment.png", caption: "Iluminación y composición escénica en Wave Engine" }
                 ]
             },
@@ -551,7 +551,7 @@ const projectsData = [
                         why: "Garantir que la geometria de col·lisió fos precisa, coherent i justa és crític per a l'experiència de joc. Un collider imprecís trenca la immersió i pot provocar que el jugador accedeixi a zones fora del disseny previst o pateixi frustració per col·lisions injustes."
                     },
                     {
-                        title: "Redisseny de Puzles — Dificultat i Aprenentatge Progressiu",
+                        title: "Redisseny de Puzles: Dificultat i Aprenentatge Progressiu",
                         challenge: "Durant el playtesting vaig detectar que dos puzles clau del joc tenien una dificultat massa baixa per a la seva posició al nivell: el segon puzle d'Apol·lo i el puzle final del Nivell 2 tenien solucions massa evidents i no representaven el repte esperat per a la corba de dificultat.",
                         what: "Vaig redissenyar el segon puzle d'Apol·lo introduint una mecànica que després es dona per apresa, cosa que permet que el jugador la descobreixi de forma natural abans de necessitar-la. Vaig recrear el puzle final del Nivell 2 potenciant l'ús de les tres màscares i integrant totes les mecàniques apreses al llarg del joc.",
                         why: "Un bon puzle de tancament ha de posar a prova el que el jugador ha après i funcionar com a culminació coherent de la progressió. Augmentar la complexitat sense afegir noves mecàniques permet crear un repte satisfactori i alineat amb les expectatives de la fase final."
@@ -563,7 +563,7 @@ const projectsData = [
                         why: "Una transició suau redueix la dissonància cognitiva i millora la sensació de continuïtat narrativa. La condició per claus protegeix la progressió del disseny. La neteja i organització del motor són fonamentals per al treball en equip escalable i per mantenir un rendiment òptim del joc."
                     },
                     {
-                        title: "QA Continu — Playtesting a Cada Fita",
+                        title: "QA Continu: Playtesting a Cada Fita",
                         challenge: "En un equip de més de 30 persones amb lliuraments freqüents, els bugs i els problemes de balanç de dificultat eren inevitables i podien acumular-se entre fites si no es monitoritzaven activament.",
                         what: "Vaig realitzar sessions de playtesting sistemàtiques a cada entrega del projecte (Alpha 1, vs2, vs3, Alpha 2, Beta i Gold), cobrint el flux principal del joc, els puzles, el comportament del jugador en zones límit, les transicions d'escena i els estats del joc.",
                         why: "El QA continu integrat en el cicle de desenvolupament, en lloc de relegar-lo al final, permet detectar i prioritzar incidències mentre encara són solucionables sense grans costos. Vaig ajudar a assegurar que cada lliurament presentés un estat estable i jugable del producte."
@@ -571,7 +571,7 @@ const projectsData = [
                 ],
                 overview: `
                     <p class="modal-p"><strong>Son of Ithaca</strong> és una aventura de puzles en 3D ambientada en la mitologia grega, desenvolupada per un equip de més de 30 persones. El joc presenta dos nivells amb mecàniques de màscares, puzles progressius i un món construït col·laborativament.</p>
-                    <p class="modal-p">El meu rol va ser principalment de <strong>Technical Artist</strong> — integrant assets, gestionant colliders i optimitzant el motor — amb contribucions de <strong>Level Design</strong> (layout del Nivell 1, redisseny de puzles) i <strong>QA</strong> continu al llarg de totes les fites.</p>
+                    <p class="modal-p">El meu rol va ser principalment de <strong>Technical Artist</strong> (integrant assets, gestionant colliders i optimitzant el motor), amb contribucions de <strong>Level Design</strong> (layout del Nivell 1, redisseny de puzles) i <strong>QA</strong> continu al llarg de totes les fites.</p>
                 `,
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Layout del Nivell 1</h4>
@@ -585,17 +585,17 @@ const projectsData = [
                 `,
                 qaBreakdown: `
                     <h4 class="modal-section-h3">QA Continu al Llarg del Projecte</h4>
-                    <p class="modal-p">Vaig realitzar sessions de playtesting a cada fita del projecte — Alpha 1, vs2, vs3, Alpha 2, Beta i Gold — amb un total acumulat de més de 40 hores de testing. Vaig cobrir el flux principal de joc, els puzles, les transicions d'escena, el comportament del jugador en zones límit i l'estat general de la build.</p>
+                    <p class="modal-p">Vaig realitzar sessions de playtesting a cada fita del projecte (Alpha 1, vs2, vs3, Alpha 2, Beta i Gold) amb un total acumulat de més de 40 hores de testing. Vaig cobrir el flux principal de joc, els puzles, les transicions d'escena, el comportament del jugador en zones límit i l'estat general de la build.</p>
                     <p class="modal-p">El QA integrat en el cicle de desenvolupament va ser clau per mantenir cada entrega en un estat estable i detectar problemes mentre encara eren solucionables. Vaig reportar bugs trobats i vaig col·laborar directament amb l'equip per prioritzar i validar correccions.</p>
                 `,
                 gallery: [
-                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Nivell 1 — Integració d'assets i col·lisions a Wave Engine" },
-                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor — Inspector de components, Rigidbody, colliders PhysX i script SceneLoader_lvl2.lua" },
-                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine — Setup de Trigger Box Collider i script Collectible.lua amb visualització de mètriques" },
+                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Nivell 1: Integració d'assets i col·lisions a Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor: Inspector de components, Rigidbody, colliders PhysX i script SceneLoader_lvl2.lua" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine: Setup de Trigger Box Collider i script Collectible.lua amb visualització de mètriques" },
                     { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-18 192452.png", caption: "Inspecció en temps real de Navmesh i límits de terreny per prevenir soft-locks i caigudes" },
                     { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-05-26 214444 - copia - copia.png", caption: "Puzle de pedestals i mecàniques de màscares amb shaders dinàmics d'aigua i boira a Wave Engine" },
-                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Layout definitiu del Nivell 1 — Zones, flux i accessos" },
-                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Puzle redissenyat al Nivell 2 — Integració de les tres màscares" },
+                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Layout definitiu del Nivell 1: Zones, flux i accessos" },
+                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Puzle redissenyat al Nivell 2: Integració de les tres màscares" },
                     { src: "assets/images/Son of Ithaca/ithaca_environment.png", caption: "Il·luminació i composició escènica a Wave Engine" }
                 ]
             },
@@ -610,13 +610,13 @@ const projectsData = [
                     {
                         title: "Asset & Collider Integration Across Both Levels",
                         challenge: "As the art team delivered finished assets, they needed to be integrated into the engine respecting the level's ambiance, with precise colliders placed to prevent the player from accessing unintended areas while maximizing performance.",
-                        what: "I implemented finished assets in the engine and arranged them across levels 1 and 2 following the established dynamic and ambiance. I placed and adjusted colliders in all critical zones — mountains, uneven terrain, and special surfaces — coordinating with the rest of the Scrum Group.",
+                        what: "I implemented finished assets in the engine and arranged them across levels 1 and 2 following the established dynamic and ambiance. I placed and adjusted colliders in all critical zones (mountains, uneven terrain, and special surfaces), coordinating with the rest of the Scrum Group.",
                         why: "Accurate, consistent, and fair collision geometry is critical for player experience. Imprecise colliders break immersion and can cause players to reach out-of-bounds areas or experience frustrating unfair collisions."
                     },
                     {
-                        title: "Puzzle Redesign — Difficulty & Progressive Teaching",
+                        title: "Puzzle Redesign: Difficulty & Progressive Teaching",
                         challenge: "During playtesting I detected that two key puzzles had difficulty levels too low for their position in the level: the second Apollo puzzle and the final Level 2 puzzle had solutions too obvious and didn't represent the expected challenge for the late-game placement.",
-                        what: "I redesigned the second Apollo puzzle by introducing a mechanic that is later taken for granted — allowing the player to discover it naturally before needing it. I recreated the final Level 2 puzzle by reinforcing the use of all three masks and actively integrating mechanics learned throughout the game.",
+                        what: "I redesigned the second Apollo puzzle by introducing a mechanic that is later taken for granted, allowing the player to discover it naturally before needing it. I recreated the final Level 2 puzzle by reinforcing the use of all three masks and actively integrating mechanics learned throughout the game.",
                         why: "A good closing puzzle should test what the player has learned and work as a coherent culmination of their progression. Increasing complexity without adding new mechanics creates a satisfying challenge aligned with final-act expectations."
                     },
                     {
@@ -626,15 +626,15 @@ const projectsData = [
                         why: "A smooth transition reduces cognitive dissonance and improves narrative continuity. The key-based condition protects design progression. Cleaning and organizing the engine is fundamental for scalable teamwork and maintaining optimal game performance."
                     },
                     {
-                        title: "Continuous QA — Playtesting at Every Milestone",
+                        title: "Continuous QA: Playtesting at Every Milestone",
                         challenge: "In a 30+ person team with frequent deliveries, bugs and difficulty balance issues were inevitable and could accumulate between milestones if not actively monitored.",
                         what: "I ran systematic playtesting sessions at each project milestone (Alpha 1, vs2, vs3, Alpha 2, Beta and Gold), covering the main game flow, puzzles, player behavior in boundary zones, scene transitions, and overall build state.",
-                        why: "Continuous QA integrated into the development cycle — rather than relegated to the end — enables detecting and prioritizing issues while they are still solvable without major costs. I helped ensure each delivery presented a stable and playable product."
+                        why: "Continuous QA integrated into the development cycle (rather than relegated to the end) enables detecting and prioritizing issues while they are still solvable without major costs. I helped ensure each delivery presented a stable and playable product."
                     }
                 ],
                 overview: `
                     <p class="modal-p"><strong>Son of Ithaca</strong> is a 3D puzzle-adventure set in Greek mythology, developed by a 30+ person team. The game features two levels with mask mechanics, progressive puzzles, and a collaboratively built world.</p>
-                    <p class="modal-p">My role was primarily <strong>Technical Artist</strong> — integrating assets, managing colliders, and optimizing the engine — with contributions in <strong>Level Design</strong> (Level 1 layout, puzzle redesigns) and ongoing <strong>QA</strong> across all milestones.</p>
+                    <p class="modal-p">My role was primarily <strong>Technical Artist</strong> (integrating assets, managing colliders, and optimizing the engine), with contributions in <strong>Level Design</strong> (Level 1 layout, puzzle redesigns) and ongoing <strong>QA</strong> across all milestones.</p>
                 `,
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Level 1 Layout</h4>
@@ -648,17 +648,17 @@ const projectsData = [
                 `,
                 qaBreakdown: `
                     <h4 class="modal-section-h3">Continuous QA Throughout the Project</h4>
-                    <p class="modal-p">I ran playtesting sessions at every project milestone — Alpha 1, vs2, vs3, Alpha 2, Beta and Gold — accumulating over 40 hours of total testing time. Coverage included the main game flow, puzzles, scene transitions, player behavior in boundary zones, and overall build health.</p>
+                    <p class="modal-p">I ran playtesting sessions at every project milestone (Alpha 1, vs2, vs3, Alpha 2, Beta and Gold), accumulating over 40 hours of total testing time. Coverage included the main game flow, puzzles, scene transitions, player behavior in boundary zones, and overall build health.</p>
                     <p class="modal-p">Continuous QA integrated into the development cycle was key to keeping each delivery in a stable state and detecting issues while still solvable. I reported bugs and collaborated directly with the team to prioritize and validate fixes.</p>
                 `,
                 gallery: [
-                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Level 1 — Asset integration and PhysX collisions in Wave Engine" },
-                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor — Component inspector, Rigidbody, PhysX colliders & SceneLoader_lvl2.lua script" },
-                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine — Trigger Box Collider setup and Collectible.lua script with metric debug lines" },
+                    { src: "assets/images/Son of Ithaca/ithaca_combat.png", caption: "Level 1: Asset integration and PhysX collisions in Wave Engine" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 211929.png", caption: "Wave Engine Editor: Component inspector, Rigidbody, PhysX colliders & SceneLoader_lvl2.lua script" },
+                    { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-07 212034.png", caption: "Wave Engine: Trigger Box Collider setup and Collectible.lua script with metric debug lines" },
                     { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-04-18 192452.png", caption: "Real-time Navmesh and terrain boundary inspection preventing out-of-bounds player fallthroughs" },
                     { src: "assets/images/Son of Ithaca/Captura de pantalla 2026-05-26 214444 - copia - copia.png", caption: "Pedestal puzzle and mask mechanics featuring dynamic water shaders and volumetric fog in Wave Engine" },
-                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Level 1 Definitive Layout — Zones, player flow and access routes" },
-                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Redesigned Level 2 puzzle — Active integration of all three masks" },
+                    { src: "assets/images/Son of Ithaca/ithaca_arena.png", caption: "Level 1 Definitive Layout: Zones, player flow and access routes" },
+                    { src: "assets/images/Son of Ithaca/ithaca_boss.png", caption: "Redesigned Level 2 puzzle: Active integration of all three masks" },
                     { src: "assets/images/Son of Ithaca/ithaca_environment.png", caption: "Lighting and environmental composition in custom Wave Engine" }
                 ]
             }
@@ -1233,9 +1233,9 @@ const projectsData = [
         },
         tags: ["Baba Is You", "Puzzle Design", "Open / Shut Mechanics", "Teleport Systems", "Playtesting Iteration", "Level Codes"],
         team: {
-            es: "Proyecto individual (Pau Gutsens — CITM Level Design)",
-            ca: "Projecte individual (Pau Gutsens — CITM Level Design)",
-            en: "Individual Project (Pau Gutsens — CITM Level Design)"
+            es: "Proyecto individual (Pau Gutsens, CITM Level Design)",
+            ca: "Projecte individual (Pau Gutsens, CITM Level Design)",
+            en: "Individual Project (Pau Gutsens, CITM Level Design)"
         },
         duration: {
             es: "3 semanas (Otoño 2025)",
@@ -1254,19 +1254,19 @@ const projectsData = [
                 `,
                 whatAndWhy: [
                     {
-                        title: "Nivel 1 — Dungeon Caves 1 (KW3J-TNY7): Dualidad 'Open' y 'Shut'",
+                        title: "Nivel 1: Dungeon Caves 1 (KW3J-TNY7): Dualidad 'Open' y 'Shut'",
                         challenge: "Presentar la mecánica de abrir y cerrar puertas con llaves sin limitarla a una simple cerradura genérica, demostrando que manipular estas propiedades tiene consecuencias directas y letales sobre el propio jugador y los enemigos.",
                         what: "Diseñé un nivel donde Baba debe esquivar enemigos que patrullan horizontalmente mientras empuja una llave hacia la puerta superior. Al encontrarla inaccesible, el jugador desciende por un pasillo con dos enemigos más para completar una condición lingüística, abrir la puerta y luego deshacer la regla interna para volver, cruzar las rocas y alcanzar la meta. Ajusté los colores de paredes y piedras para maximizar la legibilidad.",
                         why: "Permite al jugador asimilar el impacto sistémico de las palabras: una condición mal planteada provoca la derrota inmediata, logrando una enseñanza profunda y activa desde el primer reto."
                     },
                     {
-                        title: "Nivel 2 — Dungeon Caves 2 (JUVJ-ZBJQ): Red de Teleports y Salas A-B-C",
+                        title: "Nivel 2: Dungeon Caves 2 (JUVJ-ZBJQ): Red de Teleports y Salas A-B-C",
                         challenge: "Elevar la complejidad espacial introduciendo teleports bidireccionales y obligando al jugador a planificar el orden de transporte de objetos a través de estados cambiantes.",
                         what: "Estructuré el nivel en tres salas interconectadas (A, B y C) mediante teleports de tubería. En la fase inicial (A → C), el jugador transporta la llave pero se topa con obstáculos intransitables. Al regresar a la sala A y entrar a la B, manipula las frases globales del nivel: al empujar 'SHUT' hacia arriba hace que las rocas sean atravesables, pero activa el patrullaje vertical de los monstruos, obligando a Baba a esquivarlos con precisión para abrir la puerta con la llave previamente depositada.",
                         why: "Introduce el concepto de persistencia espacial y consecuencias diferidas: las acciones realizadas en una sala modifican radicalmente la seguridad y transitabilidad de otra."
                     },
                     {
-                        title: "Nivel 3 — Dungeon Caves 3 (HMHW-92NT): Culminación e Integración Sistémica",
+                        title: "Nivel 3: Dungeon Caves 3 (HMHW-92NT): Culminación e Integración Sistémica",
                         challenge: "Diseñar un clímax que una todo lo aprendido (open/shut, teleports múltiples y enemigos) aumentando el reto mental y la satisfacción sin generar frustración por soft-locks.",
                         what: "Baba debe hacer primero que los tocones sean empujables mediante un teleport de tubería, empujándolos al agua para construir un puente de retorno. Desde el vestíbulo central se abren dos alas: en la sala izquierda (teleport de nube), enemigos patrullan en cuadrado sosteniendo una condición en los 4 costados que debe desmantelarse esquivándolos; en la sala derecha inferior, se sincroniza el movimiento tras los enemigos para cumplir la regla de la llave, cruzar las rocas, alcanzar el teleport de polvo y abrir la meta.",
                         why: "Ofrece un cierre gratificante donde cada mecánica interactúa armónicamente con las demás, premiando la capacidad de deducción analítica y ejecución del jugador."
@@ -1285,9 +1285,9 @@ const projectsData = [
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Desglose de Niveles y Códigos Oficiales</h4>
                     <ul class="modal-list">
-                        <li><strong>Nivel 1 — Dungeon Caves 1 (Código: KW3J-TNY7):</strong> Introducción a la dualidad 'open' y 'shut' con llaves y enemigos, evitando derrotas por contacto y enseñando a deshacer condiciones internas.</li>
-                        <li><strong>Nivel 2 — Dungeon Caves 2 (Código: JUVJ-ZBJQ):</strong> Estructura en tres salas interconectadas (A, B y C) mediante teleports bidireccionales, alteración de frases globales y activación de patrullas móviles.</li>
-                        <li><strong>Nivel 3 — Dungeon Caves 3 (Código: HMHW-92NT):</strong> Síntesis avanzada con tocones empujables al agua, múltiples teleports (tubería, nube, polvo) y desmontaje de reglas resguardadas por patrullas cuadradas.</li>
+                        <li><strong>Nivel 1: Dungeon Caves 1 (Código: KW3J-TNY7):</strong> Introducción a la dualidad 'open' y 'shut' con llaves y enemigos, evitando derrotas por contacto y enseñando a deshacer condiciones internas.</li>
+                        <li><strong>Nivel 2: Dungeon Caves 2 (Código: JUVJ-ZBJQ):</strong> Estructura en tres salas interconectadas (A, B y C) mediante teleports bidireccionales, alteración de frases globales y activación de patrullas móviles.</li>
+                        <li><strong>Nivel 3: Dungeon Caves 3 (Código: HMHW-92NT):</strong> Síntesis avanzada con tocones empujables al agua, múltiples teleports (tubería, nube, polvo) y desmontaje de reglas resguardadas por patrullas cuadradas.</li>
                     </ul>
 
                     <h4 class="modal-section-h3">2. Claridad Cognitiva y Paleta Cromática</h4>
@@ -1323,19 +1323,19 @@ const projectsData = [
                 `,
                 whatAndWhy: [
                     {
-                        title: "Nivell 1 — Dungeon Caves 1 (KW3J-TNY7): Dualitat 'Open' i 'Shut'",
+                        title: "Nivell 1: Dungeon Caves 1 (KW3J-TNY7): Dualitat 'Open' i 'Shut'",
                         challenge: "Presentar la mecànica d'obrir i tancar portes amb claus sense limitar-la a un pany genèric, demostrant que manipular aquestes propietats té conseqüències directes i letals sobre el personatge i els enemics.",
                         what: "Vaig dissenyar un nivell on Baba ha d'esquivar enemics que patrullen horitzontalment mentre empeny una clau cap a la porta superior. En trobar-la inaccessible, el jugador baixa per un passadís amb dos enemics més per completar una condició lingüística, obrir la porta i després desfer la regla interna per tornar, creuar les roques i assolir la meta. Vaig ajustar els colors de parets i pedres per més claredat.",
                         why: "Permet al jugador assimilar l'impacte sistèmic de les paraules: una condició mal plantejada provoca la derrota immediata, assolint un aprenentatge profund i actiu des del primer repte."
                     },
                     {
-                        title: "Nivell 2 — Dungeon Caves 2 (JUVJ-ZBJQ): Xarxa de Teleports i Sales A-B-C",
+                        title: "Nivell 2: Dungeon Caves 2 (JUVJ-ZBJQ): Xarxa de Teleports i Sales A-B-C",
                         challenge: "Elevar la complexitat espacial introduint teleports bidireccionals i obligant el jugador a planificar l'ordre de transport d'objectes a través d'estats canviants.",
                         what: "Vaig estructurar el nivell en tres sales interconnectades (A, B i C) mitjançant teleports de canonada. A la fase inicial (A → C), el jugador transporta la clau però topa amb obstacles intransitables. En tornar a la sala A i accedir a la B, manipula les frases globals del nivell: en moure 'SHUT' cap amunt fa que les roques siguin travessables, però activa el patrullatge vertical dels monstres, obligant Baba a esquivar-los amb precisió per obrir la porta amb la clau prèviament deixada.",
                         why: "Introdueix el concepte de persistència espacial i conseqüències diferides: les accions realitzades en una sala modifiquen radicalment la seguretat i transició d'una altra."
                     },
                     {
-                        title: "Nivell 3 — Dungeon Caves 3 (HMHW-92NT): Culminació i Integració Sistèmica",
+                        title: "Nivell 3: Dungeon Caves 3 (HMHW-92NT): Culminació i Integració Sistèmica",
                         challenge: "Dissenyar un clímax que uneixi tot el que s'ha après (open/shut, teleports múltiples i enemics) augmentant el repte mental i la satisfacció sense generar frustració per soft-locks.",
                         what: "Baba ha de fer primer que les soques es puguin empènyer mitjançant un teleport de canonada, empenyent-les a l'aigua per bastir un pont de retorn. Des del vestíbul central s'obren dues ales: a la sala esquerra (teleport de núvol), enemics patrullen en quadrat mantenint una condició als 4 costats que cal desmantellar esquivant-los; a la sala dreta inferior, se sincronitza el moviment rere els enemics per complir la regla de la clau, travessar les roques, arribar al teleport de pols i obrir la meta.",
                         why: "Ofereix un tancament gratificant on cada mecànica interactua harmònicament amb les altres, premiant la capacitat de deducció analítica i execució del jugador."
@@ -1354,9 +1354,9 @@ const projectsData = [
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Desglossament de Nivells i Codis Oficials</h4>
                     <ul class="modal-list">
-                        <li><strong>Nivell 1 — Dungeon Caves 1 (Codi: KW3J-TNY7):</strong> Introducció a la dualitat 'open' i 'shut' amb claus i enemics, evitant derrotes per contacte i ensenyant a desfer condicions internes.</li>
-                        <li><strong>Nivell 2 — Dungeon Caves 2 (Codi: JUVJ-ZBJQ):</strong> Estructura en tres sales interconnectades (A, B i C) mitjançant teleports bidireccionals, alteració de frases globals i activació de patrulles mòbils.</li>
-                        <li><strong>Nivell 3 — Dungeon Caves 3 (Codi: HMHW-92NT):</strong> Síntesi avançada amb soques a l'aigua, múltiples teleports (canonada, núvol, pols) i desmuntatge de regles protegides per patrulles quadrades.</li>
+                        <li><strong>Nivell 1: Dungeon Caves 1 (Codi: KW3J-TNY7):</strong> Introducció a la dualitat 'open' i 'shut' amb claus i enemics, evitant derrotes per contacte i ensenyant a desfer condicions internes.</li>
+                        <li><strong>Nivell 2: Dungeon Caves 2 (Codi: JUVJ-ZBJQ):</strong> Estructura en tres sales interconnectades (A, B i C) mitjançant teleports bidireccionals, alteració de frases globals i activació de patrulles mòbils.</li>
+                        <li><strong>Nivell 3: Dungeon Caves 3 (Codi: HMHW-92NT):</strong> Síntesi avançada amb soques a l'aigua, múltiples teleports (canonada, núvol, pols) i desmuntatge de regles protegides per patrulles quadrades.</li>
                     </ul>
 
                     <h4 class="modal-section-h3">2. Claredat Cognitiva i Paleta Cromàtica</h4>
@@ -1392,19 +1392,19 @@ const projectsData = [
                 `,
                 whatAndWhy: [
                     {
-                        title: "Level 1 — Dungeon Caves 1 (KW3J-TNY7): 'Open' & 'Shut' Duality",
+                        title: "Level 1: Dungeon Caves 1 (KW3J-TNY7): 'Open' & 'Shut' Duality",
                         challenge: "Teaching the open/shut mechanic beyond standard key-and-door locks, demonstrating that manipulating word states has immediate and fatal consequences for both character and monsters.",
                         what: "Designed a chamber where Baba navigates past horizontally patrolling monsters while escorting a key toward the upper door. Finding it barricaded, players descend down a corridor past two more enemies to assemble a linguistic condition, unlock the door, and reverse the inner rule to backtrack across rocks toward the goal. Adjusted rock and wall hues for readability.",
                         why: "Empowers players to internalize the systemic weight of words: ill-formed sentences cause instant failure, instilling active comprehension from the very first level."
                     },
                     {
-                        title: "Level 2 — Dungeon Caves 2 (JUVJ-ZBJQ): Teleport Mesh & Rooms A-B-C",
+                        title: "Level 2: Dungeon Caves 2 (JUVJ-ZBJQ): Teleport Mesh & Rooms A-B-C",
                         challenge: "Escalating spatial complexity with bidirectional pipe teleporters, compelling players to stage item transit across evolving environment states.",
                         what: "Structured the layout across three interconnected chambers (A, B, and C) linked by pipe teleporters. Initially (A → C), players transport the key but face dead-ends. Returning to Room A and traversing to Room B, they reconfigure global sentences: pushing 'SHUT' upward dissolves rock barriers while triggering vertical patrol routines on monsters, requiring precise evasion to reach the goal with the staged key.",
                         why: "Introduces spatial persistence and delayed consequences: interventions executed in one chamber fundamentally alter navigability and threat levels in another."
                     },
                     {
-                        title: "Level 3 — Dungeon Caves 3 (HMHW-92NT): Climax & Systemic Synthesis",
+                        title: "Level 3: Dungeon Caves 3 (HMHW-92NT): Climax & Systemic Synthesis",
                         challenge: "Crafting a climactic challenge combining learned mechanics (open/shut, multi-teleports, patrols) while increasing intellectual reward without inducing soft-lock frustration.",
                         what: "Baba must first make tree stumps pushable via pipe teleporter, driving them into water to form a bridge back to the central hub. Two branches then unfold: in the left wing (cloud teleporter), enemies patrol in a square locking down conditions on 4 sides that must be undone while evading; in the lower right wing, players pace behind guards to fulfill key rules, navigate across rocks, reach dust teleporters, and unlock the goal.",
                         why: "Delivers an intellectually satisfying finale where every subsystem interlocks, rewarding deliberate planning, pattern recognition, and precise execution."
@@ -1423,9 +1423,9 @@ const projectsData = [
                 ldBreakdown: `
                     <h4 class="modal-section-h3">1. Level Suite & Official Engine Codes</h4>
                     <ul class="modal-list">
-                        <li><strong>Level 1 — Dungeon Caves 1 (Code: KW3J-TNY7):</strong> Introduces open/shut duality, keys, and patrol evasion while preventing contact defeats.</li>
-                        <li><strong>Level 2 — Dungeon Caves 2 (Code: JUVJ-ZBJQ):</strong> 3-room layout (A, B, and C) connected by bidirectional pipe teleporters, global rule toggles, and dynamic monster patrols.</li>
-                        <li><strong>Level 3 — Dungeon Caves 3 (Code: HMHW-92NT):</strong> Advanced synthesis with pushable stumps bridging water hazards, multiple teleports (pipe, cloud, dust), and dismantle puzzles guarded by box patrols.</li>
+                        <li><strong>Level 1: Dungeon Caves 1 (Code: KW3J-TNY7):</strong> Introduces open/shut duality, keys, and patrol evasion while preventing contact defeats.</li>
+                        <li><strong>Level 2: Dungeon Caves 2 (Code: JUVJ-ZBJQ):</strong> 3-room layout (A, B, and C) connected by bidirectional pipe teleporters, global rule toggles, and dynamic monster patrols.</li>
+                        <li><strong>Level 3: Dungeon Caves 3 (Code: HMHW-92NT):</strong> Advanced synthesis with pushable stumps bridging water hazards, multiple teleports (pipe, cloud, dust), and dismantle puzzles guarded by box patrols.</li>
                     </ul>
 
                     <h4 class="modal-section-h3">2. Cognitive Clarity & Chromatic Palette</h4>
@@ -1968,7 +1968,6 @@ function renderProjectDetailPage() {
             <!-- 1. El Proyecto por Encima -->
             <section class="project-section">
                 <div class="project-section-header">
-                    <i class="fa-solid fa-gamepad"></i>
                     <h2>${titleText}</h2>
                 </div>
                 <div class="project-section-content">
@@ -1979,7 +1978,6 @@ function renderProjectDetailPage() {
             <!-- 2. Mi Rol y Aportación Principal -->
             <section class="project-section">
                 <div class="project-section-header">
-                    <i class="fa-solid fa-user-check"></i>
                     <h2>${t.proj_role_title}</h2>
                 </div>
                 <div class="project-section-content">
@@ -1990,7 +1988,6 @@ function renderProjectDetailPage() {
             <!-- 3. Qué Hice y Por Qué lo Hice (Decisiones de Diseño con Rationale) -->
             <section class="project-section">
                 <div class="project-section-header">
-                    <i class="fa-solid fa-compass-drafting"></i>
                     <h2>${t.proj_what_why_title}</h2>
                 </div>
                 <div class="what-why-grid">
@@ -2001,7 +1998,6 @@ function renderProjectDetailPage() {
             <!-- 4. Desglose de Level Design -->
             <section class="project-section">
                 <div class="project-section-header">
-                    <i class="fa-solid fa-cubes"></i>
                     <h2>${t.proj_ld_title}</h2>
                 </div>
                 <div class="project-section-content project-prose">
@@ -2012,7 +2008,6 @@ function renderProjectDetailPage() {
             <!-- 5. Metodología de QA & Testing -->
             <section class="project-section">
                 <div class="project-section-header">
-                    <i class="fa-solid fa-bug"></i>
                     <h2>${t.proj_qa_title}</h2>
                 </div>
                 <div class="project-section-content project-prose">
@@ -2023,7 +2018,6 @@ function renderProjectDetailPage() {
             <!-- 6. Galería de Capturas & Materiales -->
             <section class="project-section">
                 <div class="project-section-header">
-                    <i class="fa-solid fa-images"></i>
                     <h2>${t.proj_gallery_title}</h2>
                 </div>
                 <div class="modal-gallery-grid">
