@@ -39,4 +39,4 @@ open index.html
 ## Contact
 
 **pgutsens@gmail.com**  
-[LinkedIn](https://www.linkedin.com/in/pau-gutsens-sanz491a90315/) · [Itch.io](https://pagusa515.itch.io/) · [Github](https://github.com/PauGutsens)
+[LinkedIn](https://www.linkedin.com/in/pau-gutsens-sanz-491a90315/) · [Itch.io](https://pagusa515.itch.io/) · [Github](https://github.com/PauGutsens)
